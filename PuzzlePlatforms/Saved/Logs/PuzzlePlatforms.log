@@ -892,3 +892,96 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.15-00.19.09:113][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2020.04.15-00.19.09:124][282]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3022 classes and 722 folders.
 [2020.04.15-00.19.09:133][282]Display: HotReload took  0.1s.
+[2020.04.15-00.27.59:578][138]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.15-00.28.48:184][888]LogSlate: Window 'WBP_MainMenu' being destroyed
+[2020.04.15-00.30.52:187][703]LogEditorTransaction: Undo Add Widget
+[2020.04.15-00.32.44:337][507]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.04.15-00.32.44:339][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.077
+[2020.04.15-00.32.44:339][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_MainMenu] ([1] browsable assets)...
+[2020.04.15-00.32.44:339][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_MainMenu]
+[2020.04.15-00.32.44:339][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.04.15-00.32.44:354][507]LogSavePackage: Moving 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/WBP_MainMenu_Auto1A51855914B5E0A7622F4D1A663F47BEE.tmp' to 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto1.uasset'
+[2020.04.15-00.32.44:355][507]LogFileHelpers: Auto-saving content packages took 0.016
+[2020.04.15-00.33.35:257][101]LogSlate: Took 0.008858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.15-00.34.43:728][175]LogEditorTransaction: Undo Resize Widget
+[2020.04.15-00.37.00:306][299]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 119299
+[2020.04.15-00.37.00:307][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-00.37.00:317][300]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.15-00.37.00:317][300]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.15-00.37.00:320][300]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.15-00.37.00:321][300]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.15-00.37.00:321][300]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.15-00.37.20:617][735]LogEditorTransaction: Undo Resize Widget
+[2020.04.15-00.37.21:392][784]LogEditorTransaction: Undo Move Widget
+[2020.04.15-00.37.22:313][892]LogEditorTransaction: Undo Resize Widget
+[2020.04.15-00.37.27:291][487]LogEditorTransaction: Undo Resize Widget
+[2020.04.15-00.37.32:454][ 57]LogSlate: Took 0.001451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.15-00.38.56:039][954]LogEditorTransaction: Undo Resize Widget
+[2020.04.15-00.40.07:599][247]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.15-00.46.53:037][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-00.46.53:056][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-00.46.53:056][ 48]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.04.15-00.46.53:057][ 48]LogPlayLevel: [PlayLevel] Compiling WBP_MainMenu before play...
+[2020.04.15-00.46.53:328][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.04.15-00.46.53:330][ 48]LogPlayLevel: PlayLevel: Blueprint regeneration took 274 ms (1 blueprints)
+[2020.04.15-00.46.53:330][ 48]PIE: New page: PIE session: MainMenu (Apr 14, 2020, 4:46:53 PM)
+[2020.04.15-00.46.53:331][ 48]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-00.46.53:331][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000853s)
+[2020.04.15-00.46.53:332][ 48]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.15-00.46.53:332][ 48]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2020.04.15-00.46.53:332][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001742s)
+[2020.04.15-00.46.53:363][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.04.15-00.46.53:363][ 48]LogTemp: Warning: Found class WBP_MainMenu_C
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-00.46.53:363][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-00.46.53:363][ 48]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-00.46.53:363][ 48]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.15-00.46.53:414][ 48]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: Channel Order:
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 4: BackLeft
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 5: BackRight
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 6: SideLeft
+[2020.04.15-00.46.53:415][ 48]LogAudioMixer: Display: 7: SideRight
+[2020.04.15-00.46.53:444][ 48]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.15-00.46.53:445][ 48]LogInit: FAudioDevice initialized.
+[2020.04.15-00.46.53:485][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-00.46.53:486][ 48]LogLoad: Game class is 'PuzzlePlatformsGameMode'
+[2020.04.15-00.46.53:486][ 48]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.14-20.46.53
+[2020.04.15-00.46.53:486][ 48]LogWorld: Bringing up level for play took: 0.000263
+[2020.04.15-00.46.53:487][ 48]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.04.15-00.46.53:488][ 48]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.15-00.46.53:489][ 48]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.15-00.46.53:491][ 48]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 0.49
+[2020.04.15-00.46.53:491][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-00.46.53:533][ 49]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.15-00.46.57:362][504]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.15-00.46.57:365][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-00.46.57:365][504]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-00.46.57:365][504]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-00.46.57:365][504]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-00.46.57:366][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-00.46.57:372][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-00.46.57:373][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-00.46.57:377][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-00.46.57:408][504]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-00.46.57:429][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.04.15-00.46.57:454][507]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.04.15-00.47.41:863][759]LogEditorTransaction: Undo Move Widget
+[2020.04.15-00.47.42:576][802]LogEditorTransaction: Undo Move Widget
+[2020.04.15-00.48.17:796][970]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.15-00.48.17:981][970]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
