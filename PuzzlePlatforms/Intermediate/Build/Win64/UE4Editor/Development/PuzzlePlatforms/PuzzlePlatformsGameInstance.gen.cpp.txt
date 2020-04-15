@@ -2,4 +2,6 @@ E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\D
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Source\PuzzlePlatforms/PuzzlePlatformsGameInstance.h
+E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem/MenuInterface.h
+E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuInterface.generated.h
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PuzzlePlatformsGameInstance.generated.h

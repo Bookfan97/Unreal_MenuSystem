@@ -82,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "MenuSystem/MainMenu.h" },
 		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
 	};
@@ -134,7 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainMenu, 3646034741);
+	IMPLEMENT_CLASS(UMainMenu, 2723858262);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UMainMenu>()
 	{
 		return UMainMenu::StaticClass();
