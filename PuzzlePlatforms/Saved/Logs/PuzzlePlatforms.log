@@ -1265,3 +1265,210 @@ Please see Output Log for details.
 [2020.04.15-01.21.00:718][754]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
 [2020.04.15-01.21.08:811][716]BlueprintLog: New page: Compile WBP_MainMenu
 [2020.04.15-01.21.09:007][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.04.15-01.23.11:413][609]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-01.23.11:430][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.23.11:430][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-01.23.11:430][609]PIE: New page: PIE session: MainMenu (Apr 14, 2020, 5:23:11 PM)
+[2020.04.15-01.23.11:430][609]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-01.23.11:431][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000851s)
+[2020.04.15-01.23.11:432][609]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.15-01.23.11:432][609]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2020.04.15-01.23.11:432][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001665s)
+[2020.04.15-01.23.11:466][609]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.04.15-01.23.11:467][609]LogTemp: Warning: Found class WBP_MainMenu_C
+[2020.04.15-01.23.11:467][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-01.23.11:467][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-01.23.11:467][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-01.23.11:467][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-01.23.11:468][609]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-01.23.11:468][609]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-01.23.11:468][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-01.23.11:468][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-01.23.11:468][609]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-01.23.11:468][609]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: Channel Order:
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 4: BackLeft
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 5: BackRight
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 6: SideLeft
+[2020.04.15-01.23.11:520][609]LogAudioMixer: Display: 7: SideRight
+[2020.04.15-01.23.11:549][609]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.15-01.23.11:551][609]LogInit: FAudioDevice initialized.
+[2020.04.15-01.23.11:555][609]LogLoad: Game class is 'PuzzlePlatformsGameMode'
+[2020.04.15-01.23.11:556][609]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.14-21.23.11
+[2020.04.15-01.23.11:556][609]LogWorld: Bringing up level for play took: 0.000235
+[2020.04.15-01.23.11:556][609]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.04.15-01.23.11:559][609]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.15-01.23.11:559][609]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 0.558
+[2020.04.15-01.23.11:559][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.23.16:820][239]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-01.23.16:842][239]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.15-01.23.16:862][239]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.15-01.23.16:862][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.23.16:862][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-01.23.16:862][239]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-01.23.16:862][239]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-01.23.16:862][239]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-01.23.16:863][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-01.23.16:868][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-01.23.16:868][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.23.16:873][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-01.23.16:907][239]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-01.23.16:917][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-01.23.16:920][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.15-01.23.16:930][240]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.04.15-01.23.45:941][404]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.04.15-01.23.45:942][404]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.15-01.24.02:519][323]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.15-01.24.51:761][192]Candidate modules for hot reload:
+[2020.04.15-01.24.51:761][192]  PuzzlePlatforms
+[2020.04.15-01.24.51:761][192]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PuzzlePlatforms,8193 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_MenuSystem/PuzzlePlatforms/PuzzlePlatforms.uproject" "E:/Github/Unreal_MenuSystem/PuzzlePlatforms/PuzzlePlatforms.uproject"  -IgnoreJunk]
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: New page: Compilation - Apr 14, 2020, 5:25:02 PM
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_MenuSystem).
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Creating makefile for PuzzlePlatformsEditor (.uproject file is newer)
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Parsing headers for PuzzlePlatformsEditor
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github\Unreal_MenuSystem\PuzzlePlatforms\PuzzlePlatforms.uproject" "E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Reflection code generated for PuzzlePlatformsEditor in 5.0478915 seconds
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Building PuzzlePlatformsEditor...
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Building 6 actions with 16 processes...
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [1/6] PuzzlePlatforms.init.gen.cpp
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [2/6] MainMenu.cpp
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [3/6] MainMenu.gen.cpp
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [4/6] UE4Editor-PuzzlePlatforms-8193.lib
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:      Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-8193.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-8193.exp
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [5/6] UE4Editor-PuzzlePlatforms-8193.dll
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:      Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-8193.suppressed.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-8193.suppressed.exp
+[2020.04.15-01.25.02:017][192]CompilerResultsLog:   [6/6] PuzzlePlatformsEditor.target
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Total time in Parallel executor: 3.41 seconds
+[2020.04.15-01.25.02:017][192]CompilerResultsLog: Total execution time: 10.17 seconds
+[2020.04.15-01.25.02:017][192]LogMainFrame: MainFrame: Module compiling took 10.262 seconds
+[2020.04.15-01.25.02:047][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.04.15-01.25.02:067][192]LogClass: Could not find existing class MainMenu in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.15-01.25.02:083][192]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 6 classes and 3 folders.
+[2020.04.15-01.25.02:088][192]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.04.15-01.25.02:171][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.04.15-01.25.02:179][192]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3023 classes and 723 folders.
+[2020.04.15-01.25.02:185][192]Display: HotReload took 10.4s.
+[2020.04.15-01.25.02:192][192]Warning: HotReload operation took 10.4s.
+[2020.04.15-01.25.02:513][192]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Source/PuzzlePlatforms/MenuSystem/MainMenu.cpp'
+[2020.04.15-01.25.02:516][192]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.04.15-01.25.02:783][193]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-8193.dll
+[2020.04.15-01.25.02:801][194]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.15-01.25.02:890][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.04.15-01.25.02:897][194]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 6 classes and 3 folders.
+[2020.04.15-01.25.02:901][194]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.15-01.25.02:947][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.04.15-01.25.02:955][194]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3023 classes and 723 folders.
+[2020.04.15-01.25.02:965][194]Display: HotReload took  0.2s.
+[2020.04.15-01.27.09:629][382]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.15-01.27.11:210][561]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.15-01.27.12:424][701]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu from UserWidget to MainMenu...
+[2020.04.15-01.27.12:428][701]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.15-01.27.12:665][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.04.15-01.27.17:618][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.15-01.27.17:637][783]LogSavePackage: Moving 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/WBP_MainMenuDDDD57CB436E0A7DE868EBB2BF1BC54B.tmp' to 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.15-01.27.17:654][783]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.15-01.27.17:654][783]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.15-01.45.11:192][527]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0013.dll
+[2020.04.15-01.45.11:878][530]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.15-01.45.11:929][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.04.15-01.45.11:947][530]LogClass: Could not find existing class MainMenu in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.15-01.45.11:962][530]LogHotReload: Re-instancing MainMenu after hot-reload.
+[2020.04.15-01.45.11:962][530]LogBlueprint: Error: [Compiler WBP_MainMenu] A required widget binding "Host" of type  Button  was not found.
+[2020.04.15-01.45.11:962][530]LogBlueprint: Error: [Compiler WBP_MainMenu] A required widget binding "Join" of type  Button  was not found.
+[2020.04.15-01.45.11:964][530]LogBlueprint: Error: [Compiler WBP_MainMenu] A required widget binding "Host" of type  Button  was not found.
+[2020.04.15-01.45.11:964][530]LogBlueprint: Error: [Compiler WBP_MainMenu] A required widget binding "Join" of type  Button  was not found.
+[2020.04.15-01.45.12:327][530]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 6 classes and 3 folders.
+[2020.04.15-01.45.12:332][530]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.04.15-01.45.12:421][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.04.15-01.45.12:428][530]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3023 classes and 723 folders.
+[2020.04.15-01.45.12:436][530]Display: HotReload took  0.6s.
+[2020.04.15-01.46.03:568][263]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-01.46.03:595][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.46.03:595][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-01.46.03:595][263]BlueprintLog: Warning: Blueprint failed to compile:  WBP_MainMenu
+[2020.04.15-01.46.03:598][263]LogCustomDialog: Dialog displayed:
+[2020.04.15-01.46.06:892][263]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.04.15-01.46.11:770][836]LogSlate: Window 'Message Log' being destroyed
+[2020.04.15-01.46.11:774][836]LogSlate: Window 'Message Log' being destroyed
+[2020.04.15-01.46.45:061][  9]LogBlueprint: Error: [Compiler WBP_MainMenu] A required widget binding "Join" of type  Button  was not found.
+[2020.04.15-01.46.53:929][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.15-01.46.53:947][ 43]LogSavePackage: Moving 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/WBP_MainMenu9775845F4C78BC548127D0A0E709852D.tmp' to 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.15-01.46.53:970][ 43]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.15-01.46.53:970][ 43]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.15-01.47.02:062][381]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.15-01.47.02:326][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.04.15-01.47.04:003][574]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-01.47.04:019][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.47.04:019][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-01.47.04:019][574]PIE: New page: PIE session: MainMenu (Apr 14, 2020, 5:47:04 PM)
+[2020.04.15-01.47.04:019][574]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-01.47.04:020][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000743s)
+[2020.04.15-01.47.04:021][574]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.15-01.47.04:021][574]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2020.04.15-01.47.04:021][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001556s)
+[2020.04.15-01.47.04:066][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.15-01.47.04:066][574]LogTemp: Warning: Found class WBP_MainMenu_C
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-01.47.04:066][574]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-01.47.04:066][574]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-01.47.04:066][574]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: Channel Order:
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 4: BackLeft
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 5: BackRight
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 6: SideLeft
+[2020.04.15-01.47.04:118][574]LogAudioMixer: Display: 7: SideRight
+[2020.04.15-01.47.04:148][574]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.15-01.47.04:149][574]LogInit: FAudioDevice initialized.
+[2020.04.15-01.47.04:199][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-01.47.04:199][574]LogLoad: Game class is 'PuzzlePlatformsGameMode'
+[2020.04.15-01.47.04:200][574]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.14-21.47.04
+[2020.04.15-01.47.04:200][574]LogWorld: Bringing up level for play took: 0.000247
+[2020.04.15-01.47.04:200][574]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.04.15-01.47.04:201][574]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.15-01.47.04:203][574]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.15-01.47.04:204][574]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu -0.798
+[2020.04.15-01.47.04:204][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.47.09:146][923]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.15-01.47.09:159][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.47.09:159][923]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.15-01.47.09:172][923]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.15-01.47.09:191][923]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.15-01.47.09:191][923]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-01.47.09:191][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-01.47.09:195][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-01.47.09:195][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.15-01.47.09:200][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-01.47.09:230][923]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-01.47.09:251][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.04.15-01.47.09:474][924]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.15-01.47.44:682][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.15-01.47.44:695][332]LogSavePackage: Moving 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/WBP_MainMenu77CD32C04EB6FFB4775C59B7E5C74647.tmp' to 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.15-01.47.44:712][332]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.15-01.47.44:712][332]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
