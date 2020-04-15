@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PUZZLEPLATFORMS_MainMenu_generated_h
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_SPARSE_DATA
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHostServer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HostServer(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHostServer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HostServer(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMainMenu(); \
