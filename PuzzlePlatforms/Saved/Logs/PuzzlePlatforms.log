@@ -884,3 +884,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.15-00.10.27:972][417]LogSavePackage: Moving 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Saved/MainMenu5B65F15143892E8F892F87A47535135E.tmp' to 'E:/Github/Unreal_MenuSystem/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap'
 [2020.04.15-00.10.28:009][417]AssetCheck: New page: Asset Save: MainMenu
 [2020.04.15-00.10.28:009][417]LogContentValidation: Display: Validating World /Game/MenuSystem/MainMenu.MainMenu
+[2020.04.15-00.19.08:301][279]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0010.dll
+[2020.04.15-00.19.08:984][282]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.15-00.19.09:021][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.04.15-00.19.09:049][282]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2020.04.15-00.19.09:052][282]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.04.15-00.19.09:113][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.04.15-00.19.09:124][282]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3022 classes and 722 folders.
+[2020.04.15-00.19.09:133][282]Display: HotReload took  0.1s.
