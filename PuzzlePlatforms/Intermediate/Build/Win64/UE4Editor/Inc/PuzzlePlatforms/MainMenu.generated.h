@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_16_SPARSE_DATA
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execJoinServer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JoinServer(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execHostServer) \
 	{ \
 		P_FINISH; \
@@ -42,6 +50,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execJoinServer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JoinServer(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execHostServer) \
 	{ \
@@ -116,9 +132,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 	FORCEINLINE static uint32 __PPO__HostButton() { return STRUCT_OFFSET(UMainMenu, HostButton); } \
 	FORCEINLINE static uint32 __PPO__JoinButton() { return STRUCT_OFFSET(UMainMenu, JoinButton); } \
 	FORCEINLINE static uint32 __PPO__CancelJoinMenuButton() { return STRUCT_OFFSET(UMainMenu, CancelJoinMenuButton); } \
+	FORCEINLINE static uint32 __PPO__ConfirmJoinMenuButton() { return STRUCT_OFFSET(UMainMenu, ConfirmJoinMenuButton); } \
 	FORCEINLINE static uint32 __PPO__MenuSwitcher() { return STRUCT_OFFSET(UMainMenu, MenuSwitcher); } \
 	FORCEINLINE static uint32 __PPO__MainMenu() { return STRUCT_OFFSET(UMainMenu, MainMenu); } \
-	FORCEINLINE static uint32 __PPO__JoinMenu() { return STRUCT_OFFSET(UMainMenu, JoinMenu); }
+	FORCEINLINE static uint32 __PPO__JoinMenu() { return STRUCT_OFFSET(UMainMenu, JoinMenu); } \
+	FORCEINLINE static uint32 __PPO__IPAddressField() { return STRUCT_OFFSET(UMainMenu, IPAddressField); }
 
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_13_PROLOG

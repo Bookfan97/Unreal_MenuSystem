@@ -18,8 +18,10 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_PuzzlePlatforms();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_HostServer();
+	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_JoinServer();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_OpenJoinMenu();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_OpenMainMenu();
+	UMG_API UClass* Z_Construct_UClass_UEditableTextBox_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidget_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetSwitcher_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
@@ -29,6 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		UClass* Class = UMainMenu::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HostServer", &UMainMenu::execHostServer },
+			{ "JoinServer", &UMainMenu::execJoinServer },
 			{ "OpenJoinMenu", &UMainMenu::execOpenJoinMenu },
 			{ "OpenMainMenu", &UMainMenu::execOpenMainMenu },
 		};
@@ -53,6 +56,28 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMainMenu_HostServer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMainMenu_JoinServer_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMainMenu_JoinServer_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMainMenu_JoinServer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMainMenu, nullptr, "JoinServer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMainMenu_JoinServer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMainMenu_JoinServer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMainMenu_JoinServer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMainMenu_JoinServer_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -112,6 +137,10 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IPAddressField_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_IPAddressField;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_JoinMenu_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_JoinMenu;
@@ -123,6 +152,10 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MenuSwitcher_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MenuSwitcher;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ConfirmJoinMenuButton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ConfirmJoinMenuButton;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CancelJoinMenuButton_MetaData[];
 #endif
@@ -145,6 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMainMenu_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMainMenu_HostServer, "HostServer" }, // 668415256
+		{ &Z_Construct_UFunction_UMainMenu_JoinServer, "JoinServer" }, // 3508861
 		{ &Z_Construct_UFunction_UMainMenu_OpenJoinMenu, "OpenJoinMenu" }, // 3281833125
 		{ &Z_Construct_UFunction_UMainMenu_OpenMainMenu, "OpenMainMenu" }, // 97782853
 	};
@@ -155,6 +189,14 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField = { "IPAddressField", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, IPAddressField), Z_Construct_UClass_UEditableTextBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_JoinMenu_MetaData[] = {
 		{ "BindWidget", "" },
@@ -180,6 +222,14 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_MenuSwitcher = { "MenuSwitcher", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, MenuSwitcher), Z_Construct_UClass_UWidgetSwitcher_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_MenuSwitcher_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_MenuSwitcher_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_ConfirmJoinMenuButton_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_ConfirmJoinMenuButton = { "ConfirmJoinMenuButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, ConfirmJoinMenuButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_ConfirmJoinMenuButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_ConfirmJoinMenuButton_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_CancelJoinMenuButton_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "EditInline", "true" },
@@ -204,9 +254,11 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton = { "HostButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, HostButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMainMenu_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_JoinMenu,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_MainMenu,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_MenuSwitcher,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_ConfirmJoinMenuButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_CancelJoinMenuButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_JoinButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton,
@@ -238,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainMenu, 660172308);
+	IMPLEMENT_CLASS(UMainMenu, 3687563197);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UMainMenu>()
 	{
 		return UMainMenu::StaticClass();
