@@ -17,6 +17,9 @@ class PUZZLEPLATFORMS_API UMainMenu : public UUserWidget
 public:
 	void SetMenuInterface(IMenuInterface* MenuInterface);
 
+	void Setup();
+	void Teardown();
+
 protected:
 	virtual bool Initialize();
 
@@ -30,5 +33,5 @@ private:
 	UFUNCTION()
 		void HostServer();
 
-	IMenuInterface* MyMenuInterface;
+	IMenuInterface* MenuInterface;
 };

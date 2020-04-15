@@ -15,16 +15,50 @@ bool UMainMenu::Initialize()
 	return true;
 }
 
-void UMainMenu::SetMenuInterface(IMenuInterface* MenuInterface)
+void UMainMenu::SetMenuInterface(IMenuInterface* MyMenuInterface)
 {
-	this->MyMenuInterface = MenuInterface;
+	this->MenuInterface = MyMenuInterface;
 }
 
+void UMainMenu::Setup()
+{
+	this->AddToViewport();
+
+	UWorld* World = GetWorld();
+	if (!ensure(World != nullptr)) return;
+
+	APlayerController* PlayerController = World->GetFirstPlayerController();
+	if (!ensure(PlayerController != nullptr)) return;
+
+	FInputModeUIOnly InputModeData;
+	InputModeData.SetWidgetToFocus(this->TakeWidget());
+	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+
+	PlayerController->SetInputMode(InputModeData);
+
+	PlayerController->bShowMouseCursor = true;
+}
+
+void UMainMenu::Teardown()
+{
+	this->RemoveFromViewport();
+
+	UWorld* World = GetWorld();
+	if (!ensure(World != nullptr)) return;
+
+	APlayerController* PlayerController = World->GetFirstPlayerController();
+	if (!ensure(PlayerController != nullptr)) return;
+
+	FInputModeGameOnly InputModeData;
+	PlayerController->SetInputMode(InputModeData);
+
+	PlayerController->bShowMouseCursor = false;
+}
 
 void UMainMenu::HostServer()
 {
-	if (MyMenuInterface != nullptr)
+	if (MenuInterface != nullptr)
 	{
-		MyMenuInterface->Host();
+		MenuInterface->Host();
 	}
 }
