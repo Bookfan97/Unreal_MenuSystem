@@ -121,4 +121,6 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Source\PuzzlePlatforms\PlatformTrigger.h
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PlatformTrigger.generated.h
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem/MainMenu.h
+E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h
+E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuWidget.generated.h
 E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MainMenu.generated.h

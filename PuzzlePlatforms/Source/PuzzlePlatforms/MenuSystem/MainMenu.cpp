@@ -26,46 +26,6 @@ bool UMainMenu::Initialize()
 	return true;
 }
 
-void UMainMenu::SetMenuInterface(IMenuInterface* MyMenuInterface)
-{
-	this->MenuInterface = MyMenuInterface;
-}
-
-void UMainMenu::Setup()
-{
-	this->AddToViewport();
-
-	UWorld* World = GetWorld();
-	if (!ensure(World != nullptr)) return;
-
-	APlayerController* PlayerController = World->GetFirstPlayerController();
-	if (!ensure(PlayerController != nullptr)) return;
-
-	FInputModeUIOnly InputModeData;
-	InputModeData.SetWidgetToFocus(this->TakeWidget());
-	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
-
-	PlayerController->SetInputMode(InputModeData);
-
-	PlayerController->bShowMouseCursor = true;
-}
-
-void UMainMenu::Teardown()
-{
-	this->RemoveFromViewport();
-
-	UWorld* World = GetWorld();
-	if (!ensure(World != nullptr)) return;
-
-	APlayerController* PlayerController = World->GetFirstPlayerController();
-	if (!ensure(PlayerController != nullptr)) return;
-
-	FInputModeGameOnly InputModeData;
-	PlayerController->SetInputMode(InputModeData);
-
-	PlayerController->bShowMouseCursor = false;
-}
-
 void UMainMenu::HostServer()
 {
 	if (MenuInterface != nullptr)
@@ -79,7 +39,7 @@ void UMainMenu::JoinServer()
 	if (MenuInterface != nullptr)
 	{
 		if (!ensure(IPAddressField != nullptr)) return;
-		const FString Address = IPAddressField->GetText().ToString();
+		const FString& Address = IPAddressField->GetText().ToString();
 		MenuInterface->Join(Address);
 	}
 }

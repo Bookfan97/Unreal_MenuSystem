@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 // Cross Module References
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMainMenu_NoRegister();
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMainMenu();
-	UMG_API UClass* Z_Construct_UClass_UUserWidget();
+	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMenuWidget();
 	UPackage* Z_Construct_UPackage__Script_PuzzlePlatforms();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_HostServer();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_JoinServer();
@@ -173,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UMainMenu_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UUserWidget,
+		(UObject* (*)())Z_Construct_UClass_UMenuWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_PuzzlePlatforms,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMainMenu_Statics::FuncInfo[] = {
@@ -290,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainMenu, 3687563197);
+	IMPLEMENT_CLASS(UMainMenu, 494684474);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UMainMenu>()
 	{
 		return UMainMenu::StaticClass();
