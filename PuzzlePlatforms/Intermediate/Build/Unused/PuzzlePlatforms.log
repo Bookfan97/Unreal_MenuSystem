@@ -1,17 +1,3 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_MenuSystem).
-  Parsing headers for PuzzlePlatformsEditor
-    Running UnrealHeaderTool "E:\Github\Unreal_MenuSystem\PuzzlePlatforms\PuzzlePlatforms.uproject" "E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PuzzlePlatformsEditor in 4.4536157 seconds
-  Building PuzzlePlatformsEditor...
-  Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 16 processes...
-    [1/6] MainMenu.gen.cpp
-    [2/6] MainMenu.cpp
-    [3/6] PuzzlePlatformsGameInstance.cpp
-    [4/6] UE4Editor-PuzzlePlatforms-0039.lib
-       Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0039.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0039.exp
-    [5/6] UE4Editor-PuzzlePlatforms-0039.dll
-       Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0039.suppressed.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0039.suppressed.exp
-    [6/6] PuzzlePlatformsEditor.target
-  Total time in Parallel executor: 3.30 seconds
-  Total execution time: 8.37 seconds
+  Target is up to date
+  Total execution time: 0.54 seconds
