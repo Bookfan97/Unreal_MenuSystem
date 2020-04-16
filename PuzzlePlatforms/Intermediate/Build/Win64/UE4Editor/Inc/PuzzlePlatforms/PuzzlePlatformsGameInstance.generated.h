@@ -41,11 +41,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execLoadMenu) \
+	DECLARE_FUNCTION(execLoadMenuWidget) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->LoadMenu(); \
+		P_THIS->LoadMenuWidget(); \
 		P_NATIVE_END; \
 	}
 
@@ -77,11 +77,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execLoadMenu) \
+	DECLARE_FUNCTION(execLoadMenuWidget) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->LoadMenu(); \
+		P_THIS->LoadMenuWidget(); \
 		P_NATIVE_END; \
 	}
 

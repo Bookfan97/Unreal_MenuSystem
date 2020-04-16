@@ -1,12 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_MenuSystem).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_PuzzlePlatformer_Multiplayer).
   Building PuzzlePlatformsEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
     [1/4] PuzzlePlatformsGameInstance.cpp
-    [2/4] UE4Editor-PuzzlePlatforms-0013.lib
-       Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0013.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0013.exp
-    [3/4] UE4Editor-PuzzlePlatforms-0013.dll
-       Creating library E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0013.suppressed.lib and object E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0013.suppressed.exp
+    [2/4] UE4Editor-PuzzlePlatforms-0006.lib
+       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0006.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0006.exp
+    [3/4] UE4Editor-PuzzlePlatforms-0006.dll
+       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0006.suppressed.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0006.suppressed.exp
     [4/4] PuzzlePlatformsEditor.target
-  Total time in Parallel executor: 4.18 seconds
-  Total execution time: 4.76 seconds
+  Total time in Parallel executor: 3.23 seconds
+  Total execution time: 3.81 seconds
