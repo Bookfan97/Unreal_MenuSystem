@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PUZZLEPLATFORMS_PuzzlePlatformsGameInstance_generated_h
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_SPARSE_DATA
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_RPC_WRAPPERS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_SPARSE_DATA
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execJoin) \
 	{ \
@@ -50,7 +50,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execJoin) \
 	{ \
@@ -86,7 +86,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_INCLASS_NO_PURE_DECLS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPuzzlePlatformsGameInstance(); \
 	friend struct Z_Construct_UClass_UPuzzlePlatformsGameInstance_Statics; \
@@ -96,7 +96,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UPuzzlePlatformsGameInstance*>(this); }
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_INCLASS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUPuzzlePlatformsGameInstance(); \
 	friend struct Z_Construct_UClass_UPuzzlePlatformsGameInstance_Statics; \
@@ -106,7 +106,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UPuzzlePlatformsGameInstance*>(this); }
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_STANDARD_CONSTRUCTORS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPuzzlePlatformsGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPuzzlePlatformsGameInstance) \
@@ -119,7 +119,7 @@ private: \
 public:
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_ENHANCED_CONSTRUCTORS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPuzzlePlatformsGameInstance(UPuzzlePlatformsGameInstance&&); \
@@ -130,28 +130,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPuzzlePlatformsGameInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPuzzlePlatformsGameInstance)
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_PRIVATE_PROPERTY_OFFSET
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_13_PROLOG
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_GENERATED_BODY_LEGACY \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_PRIVATE_PROPERTY_OFFSET
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_15_PROLOG
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_PRIVATE_PROPERTY_OFFSET \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_SPARSE_DATA \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_RPC_WRAPPERS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_INCLASS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_STANDARD_CONSTRUCTORS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_SPARSE_DATA \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_RPC_WRAPPERS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_INCLASS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_GENERATED_BODY \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_PRIVATE_PROPERTY_OFFSET \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_SPARSE_DATA \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_INCLASS_NO_PURE_DECLS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_16_ENHANCED_CONSTRUCTORS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_SPARSE_DATA \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_INCLASS_NO_PURE_DECLS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_PuzzlePlatformsGameInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

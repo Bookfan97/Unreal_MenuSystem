@@ -1,5 +1,11 @@
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\Definitions.PuzzlePlatforms.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\PuzzlePlatformsGameInstance.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemModule.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemNames.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemPackage.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineDelegateMacros.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem/MenuInterface.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuInterface.generated.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PuzzlePlatformsGameInstance.generated.h
@@ -118,12 +124,11 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystem.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemModule.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemTypes.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemNames.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSessionSettings.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineKeyValuePair.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemPackage.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineDelegateMacros.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemPackage.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\Interfaces/OnlineSessionInterface.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\PlatformTrigger.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PlatformTrigger.generated.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem/MainMenu.h

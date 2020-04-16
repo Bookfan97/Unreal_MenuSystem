@@ -5,11 +5,14 @@
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Blueprint/UserWidget.h"
-#include "OnlineSubsystem.h"
+#include "OnlineSessionSettings.h"
+#include "Interfaces/OnlineSessionInterface.h"
 
 #include "PlatformTrigger.h"
 #include "MenuSystem/MainMenu.h"
 #include "MenuSystem/MenuWidget.h"
+
+const static FName SESSION_NAME = TEXT("My Session Game");
 
 UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance(const FObjectInitializer& ObjectInitializer)
 {
@@ -27,27 +30,36 @@ UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance(const FObjectInitiali
 void UPuzzlePlatformsGameInstance::Init()
 {
 	IOnlineSubsystem* Subsystem = IOnlineSubsystem::Get();
-	if (Subsystem != nullptr)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Found Subsytem %s"), *Subsystem->GetSubsystemName().ToString());
-		IOnlineSessionPtr SessionInterface = Subsystem->GetSessionInterface();
-		if (SessionInterface.IsValid())
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Found Session Interface"));
+	if (Subsystem != nullptr) {
+		UE_LOG(LogTemp, Warning, TEXT("Found subsystem %s"), *Subsystem->GetSubsystemName().ToString());
+		SessionInterface = Subsystem->GetSessionInterface();
+		if (SessionInterface.IsValid()) {
+			SessionInterface->OnCreateSessionCompleteDelegates.AddUObject(this, &UPuzzlePlatformsGameInstance::OnCreateSessionComplete);
+			SessionInterface->OnDestroySessionCompleteDelegates.AddUObject(this, &UPuzzlePlatformsGameInstance::OnCreateSessionComplete);
 		}
 	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Found No Subsystem %s"));
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("Found no subsystem"));
 	}
-	UE_LOG(LogTemp, Warning, TEXT("Found class %s"), *MenuClass->GetName());
 }
 
 void UPuzzlePlatformsGameInstance::LoadMenuWidget()
 {
 	if (!ensure(MenuClass != nullptr)) return;
 
-	Menu = CreateWidget<UMainMenu>(this, MenuClass);
+	MyMenu = CreateWidget<UMainMenu>(this, MenuClass);
+	if (!ensure(MyMenu != nullptr)) return;
+
+	MyMenu->Setup();
+
+	MyMenu->SetMenuInterface(this);
+}
+
+void UPuzzlePlatformsGameInstance::InGameLoadMenu()
+{
+	if (!ensure(InGameMenuClass != nullptr)) return;
+
+	UMenuWidget* Menu = CreateWidget<UMenuWidget>(this, InGameMenuClass);
 	if (!ensure(Menu != nullptr)) return;
 
 	Menu->Setup();
@@ -55,24 +67,49 @@ void UPuzzlePlatformsGameInstance::LoadMenuWidget()
 	Menu->SetMenuInterface(this);
 }
 
-void UPuzzlePlatformsGameInstance::InGameLoadMenu()
-{
-	if (!ensure(InGameMenuClass != nullptr)) return;
-	
-	UMenuWidget* MenuWidget = CreateWidget<UMenuWidget>(this, InGameMenuClass);
-	if (!ensure(MenuWidget != nullptr)) return;
-
-	MenuWidget->Setup();
-
-	MenuWidget->SetMenuInterface(this);
-}
-
 
 void UPuzzlePlatformsGameInstance::Host()
 {
-	if (Menu != nullptr)
+	if (SessionInterface.IsValid())
 	{
-		Menu->Teardown();
+		auto ExistingSession = SessionInterface->GetNamedSession(SESSION_NAME);
+		if (ExistingSession != nullptr)
+		{
+			SessionInterface->DestroySession(SESSION_NAME);
+		}
+		else
+		{
+			CreateSession();
+		}
+	}
+}
+
+void UPuzzlePlatformsGameInstance::OnDestroySessionComplete(FName SessionName, bool Success)
+{
+	if (Success) {
+		CreateSession();
+	}
+}
+
+void UPuzzlePlatformsGameInstance::CreateSession()
+{
+	if (SessionInterface.IsValid()) {
+		FOnlineSessionSettings SessionSettings;
+		SessionInterface->CreateSession(0, SESSION_NAME, SessionSettings);
+	}
+}
+
+void UPuzzlePlatformsGameInstance::OnCreateSessionComplete(FName SessionName, bool Success)
+{
+	if (!Success)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Could not create session"));
+		return;
+	}
+
+	if (MyMenu != nullptr)
+	{
+		MyMenu->Teardown();
 	}
 
 	UEngine* Engine = GetEngine();
@@ -88,9 +125,9 @@ void UPuzzlePlatformsGameInstance::Host()
 
 void UPuzzlePlatformsGameInstance::Join(const FString& Address)
 {
-	if (Menu != nullptr)
+	if (MyMenu != nullptr)
 	{
-		Menu->Teardown();
+		MyMenu->Teardown();
 	}
 
 	UEngine* Engine = GetEngine();
