@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "PuzzlePlatforms",
-			"Path": "E:\\Github\\Unreal_MenuSystem\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
+			"Path": "E:\\Github\\Unreal_PuzzlePlatformer_Multiplayer\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PuzzlePlatformsEditor",
-			"Path": "E:\\Github\\Unreal_MenuSystem\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs",
+			"Path": "E:\\Github\\Unreal_PuzzlePlatformer_Multiplayer\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

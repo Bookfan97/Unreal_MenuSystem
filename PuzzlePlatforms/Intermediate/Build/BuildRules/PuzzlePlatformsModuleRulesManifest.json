@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Github\\Unreal_MenuSystem\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.Build.cs",
-		"E:\\Github\\Unreal_MenuSystem\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
-		"E:\\Github\\Unreal_MenuSystem\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs"
+		"E:\\Github\\Unreal_PuzzlePlatformer_Multiplayer\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.Build.cs",
+		"E:\\Github\\Unreal_PuzzlePlatformer_Multiplayer\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
+		"E:\\Github\\Unreal_PuzzlePlatformer_Multiplayer\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }

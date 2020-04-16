@@ -257,11 +257,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine
-/Yc"E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"E:\Github\Unreal_MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine
+/Yc"E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4
