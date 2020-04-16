@@ -14,14 +14,50 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PUZZLEPLATFORMS_InGameMenu_generated_h
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_SPARSE_DATA
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_RPC_WRAPPERS
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execQuitPressed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->QuitPressed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCancelPressed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CancelPressed(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execQuitPressed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->QuitPressed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCancelPressed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CancelPressed(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInGameMenu(); \
 	friend struct Z_Construct_UClass_UInGameMenu_Statics; \
 public: \
-	DECLARE_CLASS(UInGameMenu, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PuzzlePlatforms"), NO_API) \
+	DECLARE_CLASS(UInGameMenu, UMenuWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PuzzlePlatforms"), NO_API) \
 	DECLARE_SERIALIZER(UInGameMenu)
 
 
@@ -30,7 +66,7 @@ private: \
 	static void StaticRegisterNativesUInGameMenu(); \
 	friend struct Z_Construct_UClass_UInGameMenu_Statics; \
 public: \
-	DECLARE_CLASS(UInGameMenu, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PuzzlePlatforms"), NO_API) \
+	DECLARE_CLASS(UInGameMenu, UMenuWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PuzzlePlatforms"), NO_API) \
 	DECLARE_SERIALIZER(UInGameMenu)
 
 
@@ -60,7 +96,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInGameMenu); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInGameMenu)
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_PRIVATE_PROPERTY_OFFSET
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CancelButton() { return STRUCT_OFFSET(UInGameMenu, CancelButton); } \
+	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UInGameMenu, QuitButton); }
+
+
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_12_PROLOG
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_InGameMenu_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
