@@ -835,3 +835,45 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.17-16.37.00:878][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
 [2020.04.17-16.37.00:889][759]LogPlayLevel: Display: Destroying online subsystem :Context_4
 [2020.04.17-16.37.03:845][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.04.17-16.47.49:081][214]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0052.dll
+[2020.04.17-16.47.49:766][217]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-16.47.49:818][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.04.17-16.47.49:858][217]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-16.47.49:862][217]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.04.17-16.47.49:934][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.04.17-16.47.49:947][217]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-16.47.49:950][217]Display: HotReload took  0.2s.
+[2020.04.17-16.54.23:901][396]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0053.dll
+[2020.04.17-16.54.24:589][399]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-16.54.24:665][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.04.17-16.54.24:702][399]LogClass: Could not find existing type ServerData for HotReload. Assuming new
+[2020.04.17-16.54.24:708][399]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-16.54.24:712][399]Display: HotReload successful (14 functions remapped  1 scriptstructs remapped)
+[2020.04.17-16.54.24:815][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.04.17-16.54.24:828][399]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-16.54.24:831][399]Display: HotReload took  0.2s.
+[2020.04.17-17.02.15:392][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.04.17-17.02.15:392][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.063
+[2020.04.17-17.02.15:392][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_ServerRow] ([1] browsable assets)...
+[2020.04.17-17.02.15:392][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_ServerRow]
+[2020.04.17-17.02.15:412][795]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow_Auto26641E1C549DF34577DB7E68D37C7FB2F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_ServerRow_Auto2.uasset'
+[2020.04.17-17.02.15:412][795]LogFileHelpers: Auto-saving content packages took 0.020
+[2020.04.17-17.04.00:336][312]BlueprintLog: New page: Compile WBP_ServerRow
+[2020.04.17-17.04.00:385][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.04.17-17.04.00:406][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
+[2020.04.17-17.04.00:423][312]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowD3CAC3664A6FE8C27EA85C916584EEDE.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
+[2020.04.17-17.04.00:443][312]AssetCheck: New page: Asset Save: WBP_ServerRow
+[2020.04.17-17.04.00:443][312]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
+[2020.04.17-17.04.24:633][555]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0055.dll
+[2020.04.17-17.04.25:317][558]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-17.04.25:367][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.04.17-17.04.25:401][558]LogClass: Could not find existing class ServerRow in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.17-17.04.25:401][558]LogClass: Function OnClicked is new.
+[2020.04.17-17.04.25:401][558]LogClass: ServerData HotReload.
+[2020.04.17-17.04.25:409][558]LogHotReload: Re-instancing ServerRow after hot-reload.
+[2020.04.17-17.04.25:694][558]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-17.04.25:698][558]Display: HotReload successful (13 functions remapped  1 scriptstructs remapped)
+[2020.04.17-17.04.25:772][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.04.17-17.04.25:784][558]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-17.04.25:787][558]Display: HotReload took  0.5s.
+[2020.04.17-17.09.01:034][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms

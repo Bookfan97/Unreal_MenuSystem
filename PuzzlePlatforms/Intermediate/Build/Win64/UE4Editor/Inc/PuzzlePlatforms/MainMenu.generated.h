@@ -13,8 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PUZZLEPLATFORMS_MainMenu_generated_h
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_SPARSE_DATA
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_12_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FServerData_Statics; \
+	PUZZLEPLATFORMS_API static class UScriptStruct* StaticStruct();
+
+
+template<> PUZZLEPLATFORMS_API UScriptStruct* StaticStruct<struct FServerData>();
+
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_SPARSE_DATA
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execQuitPressed) \
 	{ \
@@ -57,7 +64,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execQuitPressed) \
 	{ \
@@ -100,7 +107,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_INCLASS_NO_PURE_DECLS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMainMenu(); \
 	friend struct Z_Construct_UClass_UMainMenu_Statics; \
@@ -109,7 +116,7 @@ public: \
 	DECLARE_SERIALIZER(UMainMenu)
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_INCLASS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesUMainMenu(); \
 	friend struct Z_Construct_UClass_UMainMenu_Statics; \
@@ -118,7 +125,7 @@ public: \
 	DECLARE_SERIALIZER(UMainMenu)
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_STANDARD_CONSTRUCTORS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMainMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenu) \
@@ -131,7 +138,7 @@ private: \
 public:
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_ENHANCED_CONSTRUCTORS \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMainMenu(UMainMenu&&); \
@@ -142,7 +149,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMainMenu)
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_PRIVATE_PROPERTY_OFFSET \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HostButton() { return STRUCT_OFFSET(UMainMenu, HostButton); } \
 	FORCEINLINE static uint32 __PPO__JoinButton() { return STRUCT_OFFSET(UMainMenu, JoinButton); } \
 	FORCEINLINE static uint32 __PPO__QuitButton() { return STRUCT_OFFSET(UMainMenu, QuitButton); } \
@@ -154,27 +161,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 	FORCEINLINE static uint32 __PPO__ServerList() { return STRUCT_OFFSET(UMainMenu, ServerList); }
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_12_PROLOG
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_GENERATED_BODY_LEGACY \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_21_PROLOG
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_PRIVATE_PROPERTY_OFFSET \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_SPARSE_DATA \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_INCLASS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_STANDARD_CONSTRUCTORS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_PRIVATE_PROPERTY_OFFSET \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_SPARSE_DATA \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_RPC_WRAPPERS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_INCLASS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_GENERATED_BODY \
+#define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_PRIVATE_PROPERTY_OFFSET \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_SPARSE_DATA \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_INCLASS_NO_PURE_DECLS \
-	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_ENHANCED_CONSTRUCTORS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_PRIVATE_PROPERTY_OFFSET \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_SPARSE_DATA \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_INCLASS_NO_PURE_DECLS \
+	PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

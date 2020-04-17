@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 // Cross Module References
+	PUZZLEPLATFORMS_API UScriptStruct* Z_Construct_UScriptStruct_FServerData();
+	UPackage* Z_Construct_UPackage__Script_PuzzlePlatforms();
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMainMenu_NoRegister();
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMainMenu();
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMenuWidget();
-	UPackage* Z_Construct_UPackage__Script_PuzzlePlatforms();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_HostServer();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_JoinServer();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_OpenJoinMenu();
@@ -27,6 +28,74 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 	UMG_API UClass* Z_Construct_UClass_UWidgetSwitcher_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 // End Cross Module References
+class UScriptStruct* FServerData::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern PUZZLEPLATFORMS_API uint32 Get_Z_Construct_UScriptStruct_FServerData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FServerData, Z_Construct_UPackage__Script_PuzzlePlatforms(), TEXT("ServerData"), sizeof(FServerData), Get_Z_Construct_UScriptStruct_FServerData_Hash());
+	}
+	return Singleton;
+}
+template<> PUZZLEPLATFORMS_API UScriptStruct* StaticStruct<FServerData>()
+{
+	return FServerData::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FServerData(FServerData::StaticStruct, TEXT("/Script/PuzzlePlatforms"), TEXT("ServerData"), false, nullptr, nullptr);
+static struct FScriptStruct_PuzzlePlatforms_StaticRegisterNativesFServerData
+{
+	FScriptStruct_PuzzlePlatforms_StaticRegisterNativesFServerData()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("ServerData")),new UScriptStruct::TCppStructOps<FServerData>);
+	}
+} ScriptStruct_PuzzlePlatforms_StaticRegisterNativesFServerData;
+	struct Z_Construct_UScriptStruct_FServerData_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FServerData_Statics::Struct_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FServerData_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FServerData>();
+	}
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FServerData_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_PuzzlePlatforms,
+		nullptr,
+		&NewStructOps,
+		"ServerData",
+		sizeof(FServerData),
+		alignof(FServerData),
+		nullptr,
+		0,
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FServerData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FServerData_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FServerData()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FServerData_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_PuzzlePlatforms();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("ServerData"), sizeof(FServerData), Get_Z_Construct_UScriptStruct_FServerData_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FServerData_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FServerData_Hash() { return 4130575614U; }
 	void UMainMenu::StaticRegisterNativesUMainMenu()
 	{
 		UClass* Class = UMainMenu::StaticClass();
