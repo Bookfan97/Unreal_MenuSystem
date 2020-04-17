@@ -136,5 +136,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\EditableTextBox.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem\ServerRow.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\ServerRow.generated.h
