@@ -232,6 +232,10 @@
 /I E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
+/I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
+/I ..\Plugins\Online\OnlineSubsystem
+/I ..\Plugins\Online\OnlineSubsystem\Source
+/I ..\Plugins\Online\OnlineSubsystem\Source\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

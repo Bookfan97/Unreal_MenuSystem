@@ -1,12 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_PuzzlePlatformer_Multiplayer).
+  Creating makefile for PuzzlePlatformsEditor (.uproject file is newer)
+  Parsing headers for PuzzlePlatformsEditor
+    Running UnrealHeaderTool "E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\PuzzlePlatforms.uproject" "E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PuzzlePlatformsEditor in 20.3572562 seconds
   Building PuzzlePlatformsEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] PuzzlePlatformsGameInstance.cpp
-    [2/4] UE4Editor-PuzzlePlatforms-0045.lib
-       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0045.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0045.exp
-    [3/4] UE4Editor-PuzzlePlatforms-0045.dll
-       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0045.suppressed.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0045.suppressed.exp
-    [4/4] PuzzlePlatformsEditor.target
-  Total time in Parallel executor: 3.60 seconds
-  Total execution time: 4.16 seconds
+  Building 25 actions with 16 processes...
+    [1/25] MenuInterface.cpp
+    [2/25] PuzzlePlatforms.cpp
+    [3/25] MovingPlatform.cpp
+    [4/25] PlatformTrigger.cpp
+    [5/25] PuzzlePlatformsGameMode.cpp
+    [6/25] MovingPlatform.gen.cpp
+    [7/25] MenuInterface.gen.cpp
+    [8/25] PuzzlePlatformsCharacter.cpp
+    [9/25] PlatformTrigger.gen.cpp
+    [10/25] PuzzlePlatforms.init.gen.cpp
+    [11/25] PuzzlePlatformsGameMode.gen.cpp
+    [12/25] PuzzlePlatformsCharacter.gen.cpp
+    [13/25] PuzzlePlatformsGameInstance.gen.cpp
+    [14/25] MenuWidget.cpp
+    [15/25] ServerRow.gen.cpp
+    [16/25] MenuWidget.gen.cpp
+    [17/25] MainMenu.gen.cpp
+    [18/25] ServerRow.cpp
+    [19/25] InGameMenu.cpp
+    [20/25] InGameMenu.gen.cpp
+    [21/25] PuzzlePlatformsGameInstance.cpp
+    [22/25] MainMenu.cpp
+    [23/25] UE4Editor-PuzzlePlatforms-0046.lib
+       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0046.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0046.exp
+    [24/25] UE4Editor-PuzzlePlatforms-0046.dll
+       Creating library E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0046.suppressed.lib and object E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\UE4Editor-PuzzlePlatforms-0046.suppressed.exp
+    [25/25] PuzzlePlatformsEditor.target
+  Total time in Parallel executor: 92.82 seconds
+  Total execution time: 116.73 seconds
