@@ -132,8 +132,6 @@ public:
 
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UMainMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMainMenu(UMainMenu&&); \
@@ -153,7 +151,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMainMenu); \
 	FORCEINLINE static uint32 __PPO__MenuSwitcher() { return STRUCT_OFFSET(UMainMenu, MenuSwitcher); } \
 	FORCEINLINE static uint32 __PPO__MainMenu() { return STRUCT_OFFSET(UMainMenu, MainMenu); } \
 	FORCEINLINE static uint32 __PPO__JoinMenu() { return STRUCT_OFFSET(UMainMenu, JoinMenu); } \
-	FORCEINLINE static uint32 __PPO__IPAddressField() { return STRUCT_OFFSET(UMainMenu, IPAddressField); }
+	FORCEINLINE static uint32 __PPO__ServerList() { return STRUCT_OFFSET(UMainMenu, ServerList); }
 
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_MenuSystem_MainMenu_h_12_PROLOG

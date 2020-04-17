@@ -22,7 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_OpenJoinMenu();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_OpenMainMenu();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UMainMenu_QuitPressed();
-	UMG_API UClass* Z_Construct_UClass_UEditableTextBox_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UPanelWidget_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidget_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetSwitcher_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
@@ -161,9 +161,9 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IPAddressField_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ServerList_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_IPAddressField;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ServerList;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_JoinMenu_MetaData[];
 #endif
@@ -216,16 +216,17 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		{ "Comment", "/**\n *\n */" },
 		{ "IncludePath", "MenuSystem/MainMenu.h" },
 		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_ServerList_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MenuSystem/MainMenu.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField = { "IPAddressField", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, IPAddressField), Z_Construct_UClass_UEditableTextBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_ServerList = { "ServerList", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, ServerList), Z_Construct_UClass_UPanelWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_ServerList_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_ServerList_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainMenu_Statics::NewProp_JoinMenu_MetaData[] = {
 		{ "BindWidget", "" },
@@ -291,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton = { "HostButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainMenu, HostButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainMenu_Statics::NewProp_HostButton_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMainMenu_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_IPAddressField,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_ServerList,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_JoinMenu,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_MainMenu,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainMenu_Statics::NewProp_MenuSwitcher,
@@ -328,7 +329,7 @@ void EmptyLinkFunctionForGeneratedCodeMainMenu() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainMenu, 3148412355);
+	IMPLEMENT_CLASS(UMainMenu, 2137224156);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UMainMenu>()
 	{
 		return UMainMenu::StaticClass();
