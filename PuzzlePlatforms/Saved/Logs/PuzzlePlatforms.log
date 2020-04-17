@@ -1,4 +1,4 @@
-﻿Log file open, 04/17/20 11:44:34
+﻿Log file open, 04/17/20 16:05:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: PuzzlePlatforms
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.162726
+LogStats: Stats thread started at 0.432499
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -171,1057 +171,536 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:501][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:506][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.17-15.44.35:506][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.17-15.44.35:507][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.17-15.44.35:507][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.17-15.44.35:507][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.17-15.44.35:515][  0]LogHAL: Display: Platform has ~ 32 GB [34273157120 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.17-15.44.35:515][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.17-15.44.35:515][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.17-15.44.35:515][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.17-15.44.35:516][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.17-15.44.35:522][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.17-15.44.35:522][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.17-15.44.35:522][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
-[2020.04.17-15.44.35:522][  0]LogInit: Computer: DESKTOP-22ELON2
-[2020.04.17-15.44.35:522][  0]LogInit: User: shelt
-[2020.04.17-15.44.35:522][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.04.17-15.44.35:522][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.17-15.44.35:522][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.04.17-15.44.35:522][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.17-15.44.35:522][  0]LogMemory: Process Physical Memory: 111.83 MB used, 111.84 MB peak
-[2020.04.17-15.44.35:522][  0]LogMemory: Process Virtual Memory: 106.30 MB used, 106.30 MB peak
-[2020.04.17-15.44.35:522][  0]LogMemory: Physical Memory: 8908.31 MB used,  23777.12 MB free, 32685.43 MB total
-[2020.04.17-15.44.35:522][  0]LogMemory: Virtual Memory: 5224.06 MB used,  134212504.00 MB free, 134217728.00 MB total
-[2020.04.17-15.44.35:840][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.17-15.44.36:031][  0]LogInit: Using OS detected language (en-US).
-[2020.04.17-15.44.36:031][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.17-15.44.36:031][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.17-15.44.36:221][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.17-15.44.36:323][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.17-15.44.36:323][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.17-15.44.39:381][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2020.04.17-15.44.39:381][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.17-15.44.39:381][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.17-15.44.39:381][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.17-15.44.39:460][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
-[2020.04.17-15.44.39:460][  0]LogD3D11RHI:       11049/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.04.17-15.44.39:462][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.17-15.44.39:462][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.17-15.44.39:462][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.17-15.44.39:470][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.17-15.44.39:470][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.17-15.44.39:470][  0]LogWindows: EnumDisplayDevices:
-[2020.04.17-15.44.39:470][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
-[2020.04.17-15.44.39:470][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
-[2020.04.17-15.44.39:471][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.04.17-15.44.39:471][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.04.17-15.44.39:471][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.04.17-15.44.39:471][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
-[2020.04.17-15.44.39:471][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
-[2020.04.17-15.44.39:471][  0]LogD3D11RHI:      Driver Date: 4-3-2020
-[2020.04.17-15.44.39:471][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
-[2020.04.17-15.44.39:517][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.17-15.44.39:517][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.17-15.44.39:544][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.04.17-15.44.39:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.17-15.44.39:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.17-15.44.39:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.17-15.44.39:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.17-15.44.39:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.17-15.44.39:990][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.17-15.44.40:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.17-15.44.40:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.17-15.44.40:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.17-15.44.40:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.17-15.44.40:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.17-15.44.40:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.17-15.44.40:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.17-15.44.40:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.17-15.44.40:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.17-15.44.40:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.17-15.44.40:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.17-15.44.40:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.17-15.44.40:202][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.17-15.44.40:259][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.17-15.44.40:523][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Intermediate/Shaders/WorkingDirectory/27068/).
-[2020.04.17-15.44.40:523][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shelt/AppData/Local/Temp/UnrealShaderWorkingDir/815282A8482F5A49EADCD48AB7B35D1C/'.
-[2020.04.17-15.44.40:523][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.17-15.44.40:523][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.17-15.44.40:523][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.17-15.44.43:323][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: Loaded boot cache 0.06s 89MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.17-15.44.43:385][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.17-15.44.43:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.17-15.44.43:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.17-15.44.43:400][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.17-15.44.43:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shelt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.17-15.44.43:401][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.17-15.44.43:401][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.17-15.44.43:419][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.17-15.44.43:421][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.17-15.44.43:439][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.17-15.44.43:735][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2020.04.17-15.44.43:962][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.17-15.44.44:341][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.17-15.44.44:341][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.17-15.44.44:341][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.17-15.44.44:341][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.17-15.44.44:341][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.17-15.44.44:376][  0]LogNetVersion: PuzzlePlatforms 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2226377169)
-[2020.04.17-15.44.48:162][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.042488 seconds
-[2020.04.17-15.44.48:167][  0]LogUObjectArray: 46759 objects as part of root set at end of initial load.
-[2020.04.17-15.44.48:167][  0]LogUObjectAllocator: 8148360 out of 0 bytes used by permanent object pool.
-[2020.04.17-15.44.48:167][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.17-15.44.49:670][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.17-15.44.49:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.17-15.44.50:290][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.50:290][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.50:306][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.50:321][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.50:336][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.50:886][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.17-15.44.50:976][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.17-15.44.50:976][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.17-15.44.51:203][  0]LogOcInput: OculusInput pre-init called
-[2020.04.17-15.44.51:864][  0]LogEngine: Initializing Engine...
-[2020.04.17-15.44.51:919][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.04.17-15.44.51:920][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.17-15.44.52:382][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.17-15.44.52:401][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.17-15.44.52:419][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.17-15.44.52:419][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.17-15.44.52:419][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 5: BackRight
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.04.17-15.44.52:573][  0]LogAudioMixer: Display: 7: SideRight
-[2020.04.17-15.44.52:786][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.17-15.44.52:788][  0]LogInit: FAudioDevice initialized.
-[2020.04.17-15.44.52:788][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.17-15.44.52:831][  0]LogDerivedDataCache: Saved boot cache 0.04s 89MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.17-15.44.52:836][  0]LogInit: Texture streaming: Enabled
-[2020.04.17-15.44.52:893][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.17-15.44.52:893][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.17-15.44.52:895][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.17-15.44.52:979][  0]LogInit: Transaction tracking system initialized
-[2020.04.17-15.44.53:068][  0]BlueprintLog: New page: Editor Load
-[2020.04.17-15.44.53:317][  0]LocalizationService: Localization service is disabled
-[2020.04.17-15.44.54:000][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/' took 0.00s
-[2020.04.17-15.44.54:000][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.17-15.44.54:000][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.17-15.44.55:079][  0]SourceControl: Source control is disabled
-[2020.04.17-15.44.55:079][  0]Cmd: MAP LOAD FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.17-15.44.55:084][  0]LightingResults: New page: Lighting Build
-[2020.04.17-15.44.55:085][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-15.44.55:085][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-15.44.55:085][  0]MapCheck: New page: Map Check
-[2020.04.17-15.44.55:085][  0]LightingResults: New page: Lighting Build
-[2020.04.17-15.44.55:113][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
-[2020.04.17-15.44.55:123][  0]LogAIModule: Creating AISystem for world MainMenu
-[2020.04.17-15.44.55:124][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.17-15.44.55:152][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
-[2020.04.17-15.44.55:152][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.17-15.44.55:152][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.079ms to complete.
-[2020.04.17-15.44.55:152][  0]LogFileHelpers: Loading map 'MainMenu' took 0.073
-[2020.04.17-15.44.55:298][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-15.44.55:302][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-15.44.55:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-15.44.55:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-15.44.55:334][  0]LogCollectionManager: Loaded 0 collections in 0.001485 seconds
-[2020.04.17-15.44.55:344][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Collections/' took 0.00s
-[2020.04.17-15.44.55:344][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/Developers/shelt/Collections/' took 0.00s
-[2020.04.17-15.44.55:344][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/Collections/' took 0.00s
-[2020.04.17-15.44.55:344][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3028 classes and 724 folders.
-[2020.04.17-15.44.55:346][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.17-15.44.55:660][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.17-15.44.55:678][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.04.17-15.44.55:797][  0]LogSlate: Took 0.005006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.17-15.44.55:803][  0]LogSlate: Took 0.004782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.17-15.44.55:811][  0]LogSlate: Took 0.005457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.17-15.44.55:931][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.04.17-15.44.56:027][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.17-15.44.56:027][  0]LogLoad: (Engine Initialization) Total time: 24.27 seconds
-[2020.04.17-15.44.56:027][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.17-15.44.56:085][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.17-15.44.56:107][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.17-15.44.56:629][ 11]LogAssetRegistry: Asset discovery search completed in 12.8941 seconds
-[2020.04.17-15.44.56:631][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2020.04.17-15.59.23:748][589]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0047.dll
-[2020.04.17-15.59.24:433][592]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-15.59.24:438][592]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.17-15.59.24:475][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.04.17-15.59.24:506][592]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-15.59.24:508][592]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
-[2020.04.17-15.59.24:566][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
-[2020.04.17-15.59.24:575][592]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-15.59.24:579][592]Display: HotReload took  0.1s.
-[2020.04.17-16.04.57:114][587]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0048.dll
-[2020.04.17-16.04.57:800][590]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-16.04.57:837][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
-[2020.04.17-16.04.57:862][590]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-16.04.57:864][590]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
-[2020.04.17-16.04.57:914][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
-[2020.04.17-16.04.57:924][590]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-16.04.57:927][590]Display: HotReload took  0.1s.
-[2020.04.17-16.06.16:468][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.04.17-16.06.16:501][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.04.17-16.06.16:604][926]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/MainMenu6821B19D40BE8C0118805DA3A2607B41.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap'
-[2020.04.17-16.06.16:637][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/MainMenu_BuiltData" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu_BuiltData.uasset" SILENT=true
-[2020.04.17-16.06.16:649][926]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/MainMenu_BuiltData7BA8D5D344347E82A91F159C1971F9D4.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu_BuiltData.uasset'
-[2020.04.17-16.06.16:672][926]AssetCheck: New page: Asset Save: multiple assets
-[2020.04.17-16.06.16:672][926]LogContentValidation: Display: Validating World /Game/MenuSystem/MainMenu.MainMenu
-[2020.04.17-16.06.16:672][926]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MenuSystem/MainMenu_BuiltData.MainMenu_BuiltData
-[2020.04.17-16.15.06:870][298]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-16.15.07:068][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2020.04.17-16.15.07:987][298]LogSlate: Took 0.005649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.04.17-16.15.19:758][688]LogSlate: Took 0.008911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.04.17-16.15.25:195][323]LogSlate: Window 'WBP_ServerRow' being destroyed
-[2020.04.17-16.16.01:873][661]LogSlate: Took 0.006405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.04.17-16.16.56:482][489]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-16.16.59:576][845]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
-[2020.04.17-16.16.59:577][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.048
-[2020.04.17-16.16.59:577][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_ServerRow] ([1] browsable assets)...
-[2020.04.17-16.16.59:577][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_ServerRow]
-[2020.04.17-16.16.59:594][845]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow_Auto18A97FF9140463D2E297312870D2AE2C0.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_ServerRow_Auto1.uasset'
-[2020.04.17-16.16.59:594][845]LogFileHelpers: Auto-saving content packages took 0.018
-[2020.04.17-16.17.10:780][730]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-16.17.12:196][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2020.04.17-16.17.12:217][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-16.17.12:231][896]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow8A62ECC24DE431887E59CA90EDB688A3.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-16.17.12:256][896]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-16.17.12:256][896]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-16.18.51:959][309]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0049.dll
-[2020.04.17-16.18.52:641][312]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-16.18.52:695][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.04.17-16.18.52:735][312]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-16.18.52:739][312]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
-[2020.04.17-16.18.52:812][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
-[2020.04.17-16.18.52:824][312]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-16.18.52:827][312]Display: HotReload took  0.2s.
-[2020.04.17-16.19.06:734][440]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.04.17-16.19.06:756][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.19.06:756][440]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.04.17-16.19.06:760][440]LogPlayLevel: [PlayLevel] Compiling WBP_ServerRow before play...
-[2020.04.17-16.19.06:936][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-16.19.06:949][440]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow3A01695A4C7F973ADFA221AE892F566B.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-16.19.07:018][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
-[2020.04.17-16.19.07:018][440]LogPlayLevel: PlayLevel: Blueprint regeneration took 261 ms (1 blueprints)
-[2020.04.17-16.19.07:021][440]PIE: New page: PIE session: MainMenu (Apr 17, 2020, 8:19:07 AM)
-[2020.04.17-16.19.07:022][440]LogOnline: OSS: Creating online subsystem instance for: Steam
-[2020.04.17-16.19.07:022][440]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2020.04.17-16.19.07:022][440]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.04.17-16.19.07:023][440]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.04.17-16.19.07:023][440]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-16.19.07:024][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000953s)
-[2020.04.17-16.19.07:025][440]LogAIModule: Creating AISystem for world MainMenu
-[2020.04.17-16.19.07:025][440]LogPlayLevel: PIE: World Init took: (0.000710s)
-[2020.04.17-16.19.07:025][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001809s)
-[2020.04.17-16.19.07:070][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2020.04.17-16.19.07:070][440]LogTemp: Warning: Found subsystem NULL
-[2020.04.17-16.19.07:070][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.17-16.19.07:070][440]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.17-16.19.07:070][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.17-16.19.07:070][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.17-16.19.07:070][440]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.17-16.19.07:071][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.17-16.19.07:071][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.17-16.19.07:071][440]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.17-16.19.07:071][440]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.17-16.19.07:071][440]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Is Default: Yes
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: Channel Order:
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 1: FrontRight
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 4: BackLeft
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 5: BackRight
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 6: SideLeft
-[2020.04.17-16.19.07:124][440]LogAudioMixer: Display: 7: SideRight
-[2020.04.17-16.19.07:156][440]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.17-16.19.07:157][440]LogInit: FAudioDevice initialized.
-[2020.04.17-16.19.07:198][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-16.19.07:202][440]LogLoad: Game class is 'PuzzlePlatformsGameMode'
-[2020.04.17-16.19.07:203][440]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.17-12.19.07
-[2020.04.17-16.19.07:203][440]LogWorld: Bringing up level for play took: 0.000442
-[2020.04.17-16.19.07:203][440]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2020.04.17-16.19.07:205][440]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.04.17-16.19.07:229][440]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2020.04.17-16.19.07:236][440]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
-[2020.04.17-16.19.07:237][440]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 1.047
-[2020.04.17-16.19.07:237][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.19.07:266][441]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.04.17-16.19.07:285][441]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-16.19.07:285][441]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-16.19.08:415][551]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-16.19.08:415][551]LogTemp: Warning: Starting Find Session
-[2020.04.17-16.19.08:418][551]LogInit: WinSock: I am DESKTOP-22ELON2 (10.0.0.15:0)
-[2020.04.17-16.19.10:206][766]LogTemp: Warning: Selected index not set.
-[2020.04.17-16.19.13:412][151]LogTemp: Warning: Finished Find Session
-[2020.04.17-16.19.37:312][ 17]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.17-16.19.37:317][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.19.37:317][ 17]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-16.19.37:318][ 17]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.17-16.19.37:338][ 17]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.17-16.19.37:338][ 17]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-16.19.37:338][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-16.19.37:347][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.17-16.19.37:347][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.19.37:352][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-16.19.37:383][ 17]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.17-16.19.37:433][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2020.04.17-16.19.37:444][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2020.04.17-16.33.39:769][252]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0051.dll
-[2020.04.17-16.33.40:120][254]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-16.33.40:166][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
-[2020.04.17-16.33.40:200][254]LogClass: Could not find existing class ServerRow in package /Script/PuzzlePlatforms for HotReload, assuming new class
-[2020.04.17-16.33.40:200][254]LogClass: Function OnClicked is new.
-[2020.04.17-16.33.40:208][254]LogHotReload: Re-instancing ServerRow after hot-reload.
-[2020.04.17-16.33.40:215][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-16.33.40:244][254]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow87748FFF40019ED4CAFF95ADAD01BA7A.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-16.33.40:401][254]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-16.33.40:405][254]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
-[2020.04.17-16.33.40:482][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
-[2020.04.17-16.33.40:494][254]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-16.33.40:497][254]Display: HotReload took  0.4s.
-[2020.04.17-16.33.40:558][254]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-16.33.40:558][254]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-16.36.11:119][752]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-16.36.33:561][550]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-16.36.34:796][690]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-16.36.34:858][690]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
-[2020.04.17-16.36.34:885][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-16.36.34:899][690]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow7CA9F52E41F52B1355D059BCE9937FCE.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-16.36.34:919][690]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-16.36.34:919][690]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-16.36.36:218][842]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.04.17-16.36.36:234][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.36.36:234][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.17-16.36.36:234][842]PIE: New page: PIE session: MainMenu (Apr 17, 2020, 8:36:36 AM)
-[2020.04.17-16.36.36:235][842]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-16.36.36:235][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000811s)
-[2020.04.17-16.36.36:236][842]LogAIModule: Creating AISystem for world MainMenu
-[2020.04.17-16.36.36:236][842]LogPlayLevel: PIE: World Init took: (0.000672s)
-[2020.04.17-16.36.36:236][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001568s)
-[2020.04.17-16.36.36:284][842]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2020.04.17-16.36.36:285][842]LogTemp: Warning: Found subsystem NULL
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.17-16.36.36:285][842]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.17-16.36.36:285][842]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.17-16.36.36:285][842]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Is Default: Yes
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: Channel Order:
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 1: FrontRight
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 4: BackLeft
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 5: BackRight
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 6: SideLeft
-[2020.04.17-16.36.36:340][842]LogAudioMixer: Display: 7: SideRight
-[2020.04.17-16.36.36:372][842]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.17-16.36.36:373][842]LogInit: FAudioDevice initialized.
-[2020.04.17-16.36.36:415][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-16.36.36:415][842]LogLoad: Game class is 'PuzzlePlatformsGameMode'
-[2020.04.17-16.36.36:416][842]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.17-12.36.36
-[2020.04.17-16.36.36:416][842]LogWorld: Bringing up level for play took: 0.000297
-[2020.04.17-16.36.36:416][842]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2020.04.17-16.36.36:417][842]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.04.17-16.36.36:419][842]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
-[2020.04.17-16.36.36:420][842]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 0.23
-[2020.04.17-16.36.36:420][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.36.37:109][922]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-16.36.37:109][922]LogTemp: Warning: Starting Find Session
-[2020.04.17-16.36.42:105][522]LogTemp: Warning: Finished Find Session
-[2020.04.17-16.36.58:919][539]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-16.37.00:744][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-16.37.00:744][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.37.00:744][758]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-16.37.00:756][758]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.17-16.37.00:778][758]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.17-16.37.00:797][758]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.17-16.37.00:798][758]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-16.37.00:798][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-16.37.00:806][758]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.17-16.37.00:806][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-16.37.00:811][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-16.37.00:843][758]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.17-16.37.00:878][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
-[2020.04.17-16.37.00:889][759]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2020.04.17-16.37.03:845][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.04.17-16.47.49:081][214]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0052.dll
-[2020.04.17-16.47.49:766][217]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-16.47.49:818][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.04.17-16.47.49:858][217]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-16.47.49:862][217]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
-[2020.04.17-16.47.49:934][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.04.17-16.47.49:947][217]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-16.47.49:950][217]Display: HotReload took  0.2s.
-[2020.04.17-16.54.23:901][396]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0053.dll
-[2020.04.17-16.54.24:589][399]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-16.54.24:665][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
-[2020.04.17-16.54.24:702][399]LogClass: Could not find existing type ServerData for HotReload. Assuming new
-[2020.04.17-16.54.24:708][399]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-16.54.24:712][399]Display: HotReload successful (14 functions remapped  1 scriptstructs remapped)
-[2020.04.17-16.54.24:815][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
-[2020.04.17-16.54.24:828][399]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-16.54.24:831][399]Display: HotReload took  0.2s.
-[2020.04.17-17.02.15:392][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
-[2020.04.17-17.02.15:392][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.063
-[2020.04.17-17.02.15:392][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_ServerRow] ([1] browsable assets)...
-[2020.04.17-17.02.15:392][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_ServerRow]
-[2020.04.17-17.02.15:412][795]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow_Auto26641E1C549DF34577DB7E68D37C7FB2F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_ServerRow_Auto2.uasset'
-[2020.04.17-17.02.15:412][795]LogFileHelpers: Auto-saving content packages took 0.020
-[2020.04.17-17.04.00:336][312]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-17.04.00:385][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2020.04.17-17.04.00:406][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-17.04.00:423][312]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowD3CAC3664A6FE8C27EA85C916584EEDE.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-17.04.00:443][312]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-17.04.00:443][312]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-17.04.24:633][555]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0055.dll
-[2020.04.17-17.04.25:317][558]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-17.04.25:367][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
-[2020.04.17-17.04.25:401][558]LogClass: Could not find existing class ServerRow in package /Script/PuzzlePlatforms for HotReload, assuming new class
-[2020.04.17-17.04.25:401][558]LogClass: Function OnClicked is new.
-[2020.04.17-17.04.25:401][558]LogClass: ServerData HotReload.
-[2020.04.17-17.04.25:409][558]LogHotReload: Re-instancing ServerRow after hot-reload.
-[2020.04.17-17.04.25:694][558]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-17.04.25:698][558]Display: HotReload successful (13 functions remapped  1 scriptstructs remapped)
-[2020.04.17-17.04.25:772][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
-[2020.04.17-17.04.25:784][558]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-17.04.25:787][558]Display: HotReload took  0.5s.
-[2020.04.17-17.09.01:034][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2020.04.17-17.16.44:194][849]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.17.01:123][822]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.07:600][240]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.17.07:611][240]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.08:980][404]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.17.08:987][404]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.10:617][598]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.17.10:631][598]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.12:017][764]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.17.12:024][764]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.15:419][153]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.17.51:391][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-17.17.51:413][738]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow37E14BA04AF1C7F40D2024B81D59D07F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-17.17.51:432][738]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-17.17.51:432][738]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-17.18.11:850][175]BlueprintLog: New page: Compile WBP_MainMenu
-[2020.04.17-17.18.11:910][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
-[2020.04.17-17.18.11:945][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-17.18.11:970][175]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuD62C2DF54BF696E196DACEA541F0A768.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-17.18.11:986][175]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-17.18.11:986][175]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.18.12:003][175]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.18.55:484][ 38]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-17.18.55:676][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
-[2020.04.17-17.18.55:719][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-17.18.55:733][ 38]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow6459E93944005E9F8797E4908B340710.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-17.18.55:750][ 38]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-17.18.55:750][ 38]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-17.20.05:262][601]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
-[2020.04.17-17.20.05:263][601]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.037
-[2020.04.17-17.20.05:263][601]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_ServerRow] ([1] browsable assets)...
-[2020.04.17-17.20.05:263][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_ServerRow]
-[2020.04.17-17.20.05:278][601]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow_Auto38210D8CF4F03A133D2FBEEABF3036C69.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_ServerRow_Auto3.uasset'
-[2020.04.17-17.20.05:278][601]LogFileHelpers: Auto-saving content packages took 0.015
-[2020.04.17-17.20.19:753][472]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.21.59:674][453]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.21.59:682][453]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.21.59:784][458]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.22.13:699][987]BlueprintLog: New page: Compile WBP_MainMenu
-[2020.04.17-17.22.13:741][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
-[2020.04.17-17.22.13:785][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-17.22.13:809][987]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuD5E795E84B4641308A61F5B5FCA339AA.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-17.22.13:827][987]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-17.22.13:827][987]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.22.13:841][987]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.22.24:180][211]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-17.22.24:378][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
-[2020.04.17-17.22.24:401][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-17.22.24:416][211]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowE8907F38402AFADDF5B627957C7AAB4E.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-17.22.24:438][211]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-17.22.24:438][211]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-17.22.27:385][548]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.22.28:783][711]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.22.28:783][711]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.22.45:390][517]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-17.22.45:590][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
-[2020.04.17-17.22.50:281][ 57]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.23.09:757][369]BlueprintLog: New page: Compile WBP_ServerRow
-[2020.04.17-17.23.09:958][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2020.04.17-17.23.09:991][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
-[2020.04.17-17.23.10:011][369]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowEF923EBD4714064919B76994A2F35342.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
-[2020.04.17-17.23.10:032][369]AssetCheck: New page: Asset Save: WBP_ServerRow
-[2020.04.17-17.23.10:032][369]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
-[2020.04.17-17.23.12:995][716]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.23.22:630][849]BlueprintLog: New page: Compile WBP_MainMenu
-[2020.04.17-17.23.22:672][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2020.04.17-17.23.22:714][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-17.23.22:739][849]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu73F7B8B14F6D7656EF9D10B95B40BFD2.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-17.23.22:759][849]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-17.23.22:759][849]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.23.22:779][849]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.23.24:691][ 75]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.04.17-17.23.24:712][ 75]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-17.23.24:712][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.17-17.23.24:712][ 75]PIE: New page: PIE session: MainMenu (Apr 17, 2020, 9:23:24 AM)
-[2020.04.17-17.23.24:712][ 75]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-17.23.24:713][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000841s)
-[2020.04.17-17.23.24:714][ 75]LogAIModule: Creating AISystem for world MainMenu
-[2020.04.17-17.23.24:714][ 75]LogPlayLevel: PIE: World Init took: (0.000718s)
-[2020.04.17-17.23.24:714][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001645s)
-[2020.04.17-17.23.24:748][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2020.04.17-17.23.24:748][ 75]LogTemp: Warning: Found subsystem NULL
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.17-17.23.24:748][ 75]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.17-17.23.24:748][ 75]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Is Default: Yes
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Channel Order:
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 1: FrontRight
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 4: BackLeft
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 5: BackRight
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 6: SideLeft
-[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 7: SideRight
-[2020.04.17-17.23.24:832][ 75]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.17-17.23.24:833][ 75]LogInit: FAudioDevice initialized.
-[2020.04.17-17.23.24:873][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-17.23.24:873][ 75]LogLoad: Game class is 'PuzzlePlatformsGameMode'
-[2020.04.17-17.23.24:874][ 75]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.17-13.23.24
-[2020.04.17-17.23.24:874][ 75]LogWorld: Bringing up level for play took: 0.000404
-[2020.04.17-17.23.24:874][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.04.17-17.23.24:876][ 75]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.04.17-17.23.24:878][ 75]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
-[2020.04.17-17.23.24:882][ 75]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 0.692
-[2020.04.17-17.23.24:882][ 75]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-17.23.25:934][199]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-17.23.25:934][199]LogTemp: Warning: Starting Find Session
-[2020.04.17-17.23.30:938][796]LogTemp: Warning: Finished Find Session
-[2020.04.17-17.23.34:850][265]LogTemp: Warning: Selected index not set.
-[2020.04.17-17.24.45:143][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-17.24.45:160][880]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu2CB151594FC1438E2799DFAE938A6B1F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-17.24.45:171][880]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-17.24.45:171][880]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.24.46:649][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.17-17.24.46:666][ 57]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.17-17.24.46:686][ 57]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.17-17.24.46:687][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-17.24.46:687][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.17-17.24.46:687][ 57]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
-[2020.04.17-17.24.46:698][ 57]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.17-17.24.46:700][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.17-17.24.46:701][ 57]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-17.24.46:701][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-17.24.46:710][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.17-17.24.46:710][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2020.04.17-17.24.46:715][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-17.24.46:750][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.17-17.24.46:764][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
-[2020.04.17-17.24.46:773][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.04.17-17.24.47:062][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-17.24.47:079][ 90]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu98F2E7394E149ED47F9D7BBCFE58A7CD.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-17.24.47:095][ 90]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-17.24.47:095][ 90]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-17.53.06:190][783]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.55.20:633][476]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.55.33:828][759]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.55.33:835][759]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.55.50:482][747]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.55.52:465][985]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.55.52:472][985]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.06:383][647]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.06:392][647]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.10:018][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.10:029][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.11:390][233]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.11:390][233]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.28:987][ 50]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.28:994][ 50]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.32:742][496]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.32:762][496]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.38:892][213]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.38:892][213]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.44:898][928]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.44:898][928]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.56.59:608][552]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-17.56.59:615][552]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.57.15:622][462]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.57.48:529][957]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.58.00:958][663]LogEditorTransaction: Undo Add Widget
-[2020.04.17-17.58.01:049][663]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-17.58.01:867][728]LogEditorTransaction: Undo Add Widget
-[2020.04.17-17.58.37:592][137]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
-[2020.04.17-17.58.37:593][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.037
-[2020.04.17-17.58.37:593][137]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_MainMenu] ([1] browsable assets)...
-[2020.04.17-17.58.37:593][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_MainMenu]
-[2020.04.17-17.58.37:619][137]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu_Auto454D792BE4D9B757F91D759B0805369EE.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto4.uasset'
-[2020.04.17-17.58.37:966][137]LogFileHelpers: Auto-saving content packages took 0.372
-[2020.04.17-18.06.14:164][925]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.15:271][ 56]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.06.15:271][ 56]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.16:408][191]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.06.16:408][191]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.20:615][690]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.06.20:634][690]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.30:103][820]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.39:143][ 43]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.06.39:161][ 43]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.06.48:425][140]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.31:568][313]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.07.31:568][313]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.40:343][347]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.42:508][604]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.07.42:516][604]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.43:179][683]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.07.43:195][683]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.44:401][818]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.46:290][ 41]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.07.46:297][ 41]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.07.52:060][724]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.07.52:077][724]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.08.37:784][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2020.04.17-18.08.37:785][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.040
-[2020.04.17-18.08.37:785][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_MainMenu] ([1] browsable assets)...
-[2020.04.17-18.08.37:785][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_MainMenu]
-[2020.04.17-18.08.37:809][142]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu_Auto5417A47FB423945D9A3BEEB8C3AEF588B.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto5.uasset'
-[2020.04.17-18.08.37:810][142]LogFileHelpers: Auto-saving content packages took 0.024
-[2020.04.17-18.19.49:618][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-18.19.49:989][103]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuED54EC064206537E4660B3B95C0CD418.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-18.19.50:015][103]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-18.19.50:015][103]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-18.19.54:496][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2020.04.17-18.19.57:491][609]LogSlate: Window 'Delete Assets' being destroyed
-[2020.04.17-18.19.58:322][609]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-18.19.58:322][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-18.19.58:337][609]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.04.17-18.19.58:337][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.17-18.19.58:372][609]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-18.20.00:023][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2020.04.17-18.20.00:057][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2020.04.17-18.20.00:088][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
-[2020.04.17-18.21.37:823][ 93]LogAssetTools: Warning: Failed to import 'C:\Users\shelt\Downloads\3_Steam_Multiplayer-2ad048d8305a571c38be43a58f72a6b35e8d1908\3_Steam_Multiplayer-2ad048d8305a571c38be43a58f72a6b35e8d1908\UnrealProject\PuzzlePlatforms\Content\MenuSystem\WBP_MainMenu.uasset'. Unknown extension 'uasset'.
-[2020.04.17-18.22.32:421][681]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-18.22.58:344][436]BlueprintLog: New page: Compile WBP_MainMenu
-[2020.04.17-18.22.58:389][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2020.04.17-18.22.58:428][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-18.22.58:448][436]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu4C1DA91E41B150014EB6778C401D8D46.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-18.22.58:467][436]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-18.22.58:467][436]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
-[2020.04.17-18.25.27:137][  8]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0057.dll
-[2020.04.17-18.25.28:167][ 12]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.17-18.25.28:216][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
-[2020.04.17-18.25.28:237][ 12]LogClass: Could not find existing class MainMenu in package /Script/PuzzlePlatforms for HotReload, assuming new class
-[2020.04.17-18.25.28:237][ 12]LogClass: Function HostServer is new.
-[2020.04.17-18.25.28:237][ 12]LogClass: Function JoinServer is new.
-[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenHostMenu is new.
-[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenJoinMenu is new.
-[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenMainMenu is new.
-[2020.04.17-18.25.28:237][ 12]LogClass: Function QuitPressed is new.
-[2020.04.17-18.25.28:244][ 12]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatforms for HotReload, assuming new class
-[2020.04.17-18.25.28:244][ 12]LogClass: Function Host is new.
-[2020.04.17-18.25.28:244][ 12]LogClass: Function InGameLoadMenu is new.
-[2020.04.17-18.25.28:244][ 12]LogClass: Function Join is new.
-[2020.04.17-18.25.28:244][ 12]LogClass: Function LoadMenuWidget is new.
-[2020.04.17-18.25.28:248][ 12]LogClass: ServerData HotReload.
-[2020.04.17-18.25.28:252][ 12]LogHotReload: Re-instancing MainMenu after hot-reload.
-[2020.04.17-18.25.28:601][ 12]LogHotReload: Re-instancing PuzzlePlatformsGameInstance after hot-reload.
-[2020.04.17-18.25.28:756][ 12]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
-[2020.04.17-18.25.28:760][ 12]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
-[2020.04.17-18.25.28:842][ 12]LogOutputDevice: Warning: 
-
-Script Stack (0 frames):
-
-[2020.04.17-18.25.29:366][ 12]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.523 s
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: === Handled ensure: ===
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/UMG/Private/Slate/SObjectWidget.cpp] [Line: 43]
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: SObjectWidget for 'WBP_ServerRow_C /Engine/Transient.World_5:WBP_MainMenu_C_3.WidgetTree_0.WBP_ServerRow' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: Stack: 
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8cd5d0e UE4Editor-UMG.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8b3f7a6 UE4Editor-UMG.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94c3edc UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6bc4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca6ad356 UE4Editor-Slate.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca87e681 UE4Editor-Slate.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca86c218 UE4Editor-Slate.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca8724a3 UE4Editor-Slate.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8c04e3b UE4Editor-UMG.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb38b4b5 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb36807e UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb25c308 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb25b53c UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb4c2dc UE4Editor-HotReload.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb4b7db UE4Editor-HotReload.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb5c821 UE4Editor-HotReload.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc72290b5 UE4Editor-Core.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688bfad74 UE4Editor.exe!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c0c3ec UE4Editor.exe!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c0c4ca UE4Editor.exe!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c1ceae UE4Editor.exe!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c1fcbe UE4Editor.exe!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff82f366fd4 KERNEL32.DLL!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff82f6dcec1 ntdll.dll!UnknownFunction []
-[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 
-[2020.04.17-18.25.29:375][ 12]LogStats:                SubmitErrorReport -  0.000 s
-[2020.04.17-18.25.38:272][ 12]LogStats:                    SendNewReport -  8.898 s
-[2020.04.17-18.25.38:273][ 12]LogStats:             FDebug::EnsureFailed -  9.430 s
-[2020.04.17-18.25.38:276][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2020.04.17-18.25.38:290][ 12]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3030 classes and 727 folders.
-[2020.04.17-18.25.38:294][ 12]Display: HotReload took 10.1s.
-[2020.04.17-18.25.38:557][ 12]LogTemp: Resetting audio stream to device id 
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Is Default: Yes
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Channel Order:
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 1: FrontRight
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 4: BackLeft
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 5: BackRight
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 6: SideLeft
-[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 7: SideRight
-[2020.04.17-18.30.23:596][ 11]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-18.30.32:720][ 74]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-18.30.32:730][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-18.30.34:248][254]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.30.34:248][254]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.04.17-18.30.43:932][388]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.30.43:939][388]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.30.45:293][550]LogSlate: Window 'Color Picker' being destroyed
-[2020.04.17-18.30.45:309][550]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.30.45:309][550]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.30.51:353][255]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.04.17-18.30.51:353][255]LogSlate: WidgetSwitcher ('None') active index changed to 2
-[2020.04.17-18.30.52:240][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
-[2020.04.17-18.30.52:269][358]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu5BA0C0C1472DB1C98F11A58C48974FA1.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
-[2020.04.17-18.30.52:293][358]AssetCheck: New page: Asset Save: WBP_MainMenu
-[2020.04.17-18.30.52:293][358]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-20.06.01:799][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.17-20.06.01:799][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:800][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:807][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:807][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.17-20.06.01:807][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.17-20.06.01:807][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:807][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.17-20.06.01:808][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.17-20.06.01:809][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.17-20.06.01:809][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.17-20.06.01:818][  0]LogHAL: Display: Platform has ~ 32 GB [34273157120 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.17-20.06.01:818][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.17-20.06.01:818][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.17-20.06.01:818][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.17-20.06.01:819][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.17-20.06.01:825][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.17-20.06.01:825][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.17-20.06.01:825][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Config/Windows/Engine.ini]
+[2020.04.17-20.06.01:825][  0]LogInit: Computer: DESKTOP-22ELON2
+[2020.04.17-20.06.01:825][  0]LogInit: User: shelt
+[2020.04.17-20.06.01:826][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.04.17-20.06.01:826][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.17-20.06.01:826][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.04.17-20.06.01:826][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.17-20.06.01:826][  0]LogMemory: Process Physical Memory: 111.82 MB used, 111.82 MB peak
+[2020.04.17-20.06.01:826][  0]LogMemory: Process Virtual Memory: 106.18 MB used, 106.18 MB peak
+[2020.04.17-20.06.01:826][  0]LogMemory: Physical Memory: 9035.12 MB used,  23650.31 MB free, 32685.43 MB total
+[2020.04.17-20.06.01:826][  0]LogMemory: Virtual Memory: 5224.06 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2020.04.17-20.06.02:130][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.17-20.06.02:387][  0]LogInit: Using OS detected language (en-US).
+[2020.04.17-20.06.02:387][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.17-20.06.02:388][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.17-20.06.02:644][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.17-20.06.02:731][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.17-20.06.02:731][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.17-20.06.05:875][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.17-20.06.05:875][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.17-20.06.05:875][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.17-20.06.05:875][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.17-20.06.05:993][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.04.17-20.06.05:993][  0]LogD3D11RHI:       11049/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.17-20.06.05:995][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.17-20.06.05:995][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.17-20.06.05:995][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.17-20.06.06:004][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.17-20.06.06:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.17-20.06.06:005][  0]LogWindows: EnumDisplayDevices:
+[2020.04.17-20.06.06:005][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.04.17-20.06.06:005][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.04.17-20.06.06:005][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.04.17-20.06.06:005][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.04.17-20.06.06:006][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.17-20.06.06:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.04.17-20.06.06:006][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.04.17-20.06.06:006][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.04.17-20.06.06:006][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
+[2020.04.17-20.06.06:062][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.17-20.06.06:062][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.17-20.06.06:105][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.04.17-20.06.06:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.17-20.06.06:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.17-20.06.06:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.17-20.06.06:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.17-20.06.06:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.17-20.06.06:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.17-20.06.06:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.17-20.06.06:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.17-20.06.06:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.17-20.06.06:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.17-20.06.06:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.17-20.06.06:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.17-20.06.06:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.17-20.06.06:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.17-20.06.06:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.17-20.06.06:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.17-20.06.06:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.17-20.06.06:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.17-20.06.06:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.17-20.06.06:869][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.17-20.06.06:928][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.17-20.06.07:242][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Intermediate/Shaders/WorkingDirectory/24208/).
+[2020.04.17-20.06.07:242][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shelt/AppData/Local/Temp/UnrealShaderWorkingDir/A6B4357448490C3B1B415BAA697B76D4/'.
+[2020.04.17-20.06.07:243][  0]LogXGEController: Cleaning working directory: C:/Users/shelt/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.17-20.06.07:243][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.17-20.06.07:243][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.17-20.06.07:243][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.17-20.06.10:105][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: Loaded boot cache 0.08s 89MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.17-20.06.10:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.17-20.06.10:204][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.17-20.06.10:204][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.17-20.06.10:204][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.17-20.06.10:205][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shelt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.17-20.06.10:205][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.17-20.06.10:205][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.17-20.06.10:227][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.17-20.06.10:235][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.17-20.06.10:258][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.17-20.06.10:616][  0]LogAssetRegistry: FAssetRegistry took 0.0052 seconds to start up
+[2020.04.17-20.06.11:016][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.17-20.06.11:490][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.17-20.06.11:490][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.17-20.06.11:490][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.17-20.06.11:490][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.17-20.06.11:490][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.17-20.06.11:547][  0]LogNetVersion: PuzzlePlatforms 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2226377169)
+[2020.04.17-20.06.16:231][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043100 seconds
+[2020.04.17-20.06.16:236][  0]LogUObjectArray: 46759 objects as part of root set at end of initial load.
+[2020.04.17-20.06.16:236][  0]LogUObjectAllocator: 8148360 out of 0 bytes used by permanent object pool.
+[2020.04.17-20.06.16:236][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.17-20.06.18:082][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.17-20.06.18:102][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.17-20.06.19:028][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.19:029][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.19:053][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.19:072][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.19:090][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.19:767][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.17-20.06.19:862][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.17-20.06.19:862][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.17-20.06.20:131][  0]LogOcInput: OculusInput pre-init called
+[2020.04.17-20.06.20:885][  0]LogEngine: Initializing Engine...
+[2020.04.17-20.06.20:943][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.17-20.06.20:949][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.04.17-20.06.21:431][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.17-20.06.21:492][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-20.06.21:521][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-20.06.21:521][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-20.06.21:523][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-20.06.21:523][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 5: BackRight
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.04.17-20.06.21:676][  0]LogAudioMixer: Display: 7: SideRight
+[2020.04.17-20.06.21:882][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.17-20.06.21:887][  0]LogInit: FAudioDevice initialized.
+[2020.04.17-20.06.21:887][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.17-20.06.21:930][  0]LogDerivedDataCache: Saved boot cache 0.04s 89MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.17-20.06.21:935][  0]LogInit: Texture streaming: Enabled
+[2020.04.17-20.06.22:001][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.17-20.06.22:001][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.17-20.06.22:002][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.17-20.06.22:094][  0]LogInit: Transaction tracking system initialized
+[2020.04.17-20.06.22:208][  0]BlueprintLog: New page: Editor Load
+[2020.04.17-20.06.22:540][  0]LocalizationService: Localization service is disabled
+[2020.04.17-20.06.23:340][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/' took 0.00s
+[2020.04.17-20.06.23:340][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.17-20.06.23:340][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.17-20.06.24:563][  0]SourceControl: Source control is disabled
+[2020.04.17-20.06.24:564][  0]Cmd: MAP LOAD FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.17-20.06.24:565][  0]LightingResults: New page: Lighting Build
+[2020.04.17-20.06.24:574][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-20.06.24:576][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-20.06.24:578][  0]MapCheck: New page: Map Check
+[2020.04.17-20.06.24:578][  0]LightingResults: New page: Lighting Build
+[2020.04.17-20.06.24:624][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.04.17-20.06.24:810][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.17-20.06.24:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.17-20.06.24:846][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.04.17-20.06.24:846][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.17-20.06.24:847][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.488ms to complete.
+[2020.04.17-20.06.24:847][  0]LogFileHelpers: Loading map 'MainMenu' took 0.284
+[2020.04.17-20.06.25:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.06.25:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.06.25:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.06.25:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.06.25:101][  0]LogCollectionManager: Loaded 0 collections in 0.002244 seconds
+[2020.04.17-20.06.25:127][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Collections/' took 0.00s
+[2020.04.17-20.06.25:127][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/Developers/shelt/Collections/' took 0.00s
+[2020.04.17-20.06.25:127][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/Collections/' took 0.00s
+[2020.04.17-20.06.25:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3029 classes and 724 folders.
+[2020.04.17-20.06.25:135][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-20.06.25:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-20.06.25:521][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.04.17-20.06.25:657][  0]LogSlate: Took 0.006218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.17-20.06.25:665][  0]LogSlate: Took 0.005985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.17-20.06.25:675][  0]LogSlate: Took 0.006666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.17-20.06.25:814][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.17-20.06.25:957][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.17-20.06.25:957][  0]LogLoad: (Engine Initialization) Total time: 28.64 seconds
+[2020.04.17-20.06.25:957][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.17-20.06.26:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.17-20.06.26:783][ 12]LogAssetRegistry: Asset discovery search completed in 16.1692 seconds
+[2020.04.17-20.06.26:786][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000183 seconds (updated 0 objects)
+[2020.04.17-20.06.30:123][ 22]LogSlate: Took 0.006172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-20.15.34:213][120]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0062.dll
+[2020.04.17-20.15.35:567][125]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-20.15.35:574][125]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-20.15.35:614][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.17-20.15.35:636][125]LogClass: Could not find existing class LobbyGameMode in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.17-20.15.35:639][125]LogClass: ServerData HotReload.
+[2020.04.17-20.15.35:641][125]LogHotReload: Re-instancing LobbyGameMode after hot-reload.
+[2020.04.17-20.15.35:740][125]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 11 classes and 3 folders.
+[2020.04.17-20.15.35:743][125]Display: HotReload successful (15 functions remapped  1 scriptstructs remapped)
+[2020.04.17-20.15.35:808][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.04.17-20.15.35:818][125]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3031 classes and 727 folders.
+[2020.04.17-20.15.35:825][125]Display: HotReload took  0.3s.
+[2020.04.17-20.16.15:914][514]LogSlate: Window 'Message Log' being destroyed
+[2020.04.17-20.16.15:918][514]LogSlate: Window 'Message Log' being destroyed
+[2020.04.17-20.16.17:450][696]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.17-20.16.17:465][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-20.16.17:467][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.17-20.16.17:468][696]PIE: New page: PIE session: MainMenu (Apr 17, 2020, 12:16:17 PM)
+[2020.04.17-20.16.17:472][696]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2020.04.17-20.16.17:472][696]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2020.04.17-20.16.17:472][696]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.17-20.16.17:473][696]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.17-20.16.17:473][696]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.17-20.16.17:476][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2020.04.17-20.16.17:477][696]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.17-20.16.17:478][696]LogPlayLevel: PIE: World Init took: (0.001789s)
+[2020.04.17-20.16.17:478][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.004670s)
+[2020.04.17-20.16.17:505][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.04.17-20.16.17:505][696]LogTemp: Warning: Found subsystem NULL
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-20.16.17:506][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-20.16.17:506][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-20.16.17:507][696]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-20.16.17:507][696]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: Channel Order:
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 4: BackLeft
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 5: BackRight
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 6: SideLeft
+[2020.04.17-20.16.17:559][696]LogAudioMixer: Display: 7: SideRight
+[2020.04.17-20.16.17:591][696]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.17-20.16.17:592][696]LogInit: FAudioDevice initialized.
+[2020.04.17-20.16.17:640][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.16.17:642][696]LogLoad: Game class is 'PuzzlePlatformsGameMode'
+[2020.04.17-20.16.17:649][696]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.17-16.16.17
+[2020.04.17-20.16.17:651][696]LogWorld: Bringing up level for play took: 0.001742
+[2020.04.17-20.16.17:651][696]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.04.17-20.16.17:690][696]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.04.17-20.16.17:729][696]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-20.16.17:734][696]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu -0.457
+[2020.04.17-20.16.17:734][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-20.16.17:783][697]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.17-20.16.18:869][825]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-20.16.21:912][190]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-20.16.22:779][294]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-20.16.22:782][294]LogTemp: Warning: Starting Find Session
+[2020.04.17-20.16.22:783][294]LogInit: WinSock: I am DESKTOP-22ELON2 (10.0.0.15:0)
+[2020.04.17-20.16.25:980][678]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-20.16.27:779][894]LogTemp: Warning: Finished Find Session
+[2020.04.17-20.16.28:000][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-20.16.28:000][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-20.16.28:001][920]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.17-20.16.28:013][920]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.17-20.16.28:024][920]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.17-20.16.28:043][920]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.17-20.16.28:044][920]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-20.16.28:046][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-20.16.28:052][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.17-20.16.28:052][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-20.16.28:055][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-20.16.28:082][920]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-20.16.28:102][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.04.17-20.16.28:117][921]LogPlayLevel: Display: Destroying online subsystem :Context_1

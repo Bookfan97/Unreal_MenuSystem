@@ -105,4 +105,14 @@
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\LobbyGameMode.h">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\LobbyGameMode.cpp">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
