@@ -72,6 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RowButton;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Selected_MetaData[];
+#endif
+		static void NewProp_Selected_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Selected;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ServerName_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ServerName;
@@ -109,6 +114,17 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton = { "RowButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UServerRow, RowButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::NewProp_Selected_MetaData[] = {
+		{ "Category", "ServerRow" },
+		{ "ModuleRelativePath", "MenuSystem/ServerRow.h" },
+	};
+#endif
+	void Z_Construct_UClass_UServerRow_Statics::NewProp_Selected_SetBit(void* Obj)
+	{
+		((UServerRow*)Obj)->Selected = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UServerRow_Statics::NewProp_Selected = { "Selected", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UServerRow), &Z_Construct_UClass_UServerRow_Statics::NewProp_Selected_SetBit, METADATA_PARAMS(Z_Construct_UClass_UServerRow_Statics::NewProp_Selected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::NewProp_Selected_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "EditInline", "true" },
@@ -119,6 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UServerRow_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_Parent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_Selected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UServerRow_Statics::StaticCppClassTypeInfo = {
@@ -148,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UServerRow, 4174759345);
+	IMPLEMENT_CLASS(UServerRow, 3534039571);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UServerRow>()
 	{
 		return UServerRow::StaticClass();
