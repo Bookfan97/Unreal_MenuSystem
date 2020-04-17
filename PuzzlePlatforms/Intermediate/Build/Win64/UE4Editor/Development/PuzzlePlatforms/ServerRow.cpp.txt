@@ -116,3 +116,17 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\ServerRow.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Button.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/ContentWidget.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ContentWidget.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Button.generated.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem\MainMenu.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem\MenuInterface.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuInterface.generated.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuWidget.generated.h
+E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MainMenu.generated.h

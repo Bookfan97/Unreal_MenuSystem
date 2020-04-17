@@ -3,10 +3,12 @@
 #include "MainMenu.h"
 
 #include "UObject/ConstructorHelpers.h"
+
 #include "Components/Button.h"
 #include "Components/WidgetSwitcher.h"
 #include "Components/EditableTextBox.h"
 #include "Components/TextBlock.h"
+
 #include "ServerRow.h"
 
 UMainMenu::UMainMenu(const FObjectInitializer& ObjectInitializer)
@@ -15,20 +17,6 @@ UMainMenu::UMainMenu(const FObjectInitializer& ObjectInitializer)
 	if (!ensure(ServerRowBPClass.Class != nullptr)) return;
 
 	ServerRowClass = ServerRowBPClass.Class;
-}
-
-void UMainMenu::SetServerList(TArray<FString> ServerNames)
-{
-	UWorld* World = this->GetWorld();
-	if (!ensure(World != nullptr)) return;
-	ServerList->ClearChildren();
-	for (const FString& ServerName : ServerNames)
-	{
-		UServerRow* Row = CreateWidget<UServerRow>(World, ServerRowClass);
-		if (!ensure(Row != nullptr)) return;
-		Row->ServerName->SetText(FText::FromString(ServerName));
-		ServerList->AddChild(Row);
-	}
 }
 
 bool UMainMenu::Initialize()
@@ -62,14 +50,47 @@ void UMainMenu::HostServer()
 	}
 }
 
+void UMainMenu::SetServerList(TArray<FString> ServerNames)
+{
+	UWorld* World = this->GetWorld();
+	if (!ensure(World != nullptr)) return;
+
+	ServerList->ClearChildren();
+
+	uint32 i = 0;
+	for (const FString& ServerName : ServerNames)
+	{
+		UServerRow* Row = CreateWidget<UServerRow>(World, ServerRowClass);
+		if (!ensure(Row != nullptr)) return;
+
+		Row->ServerName->SetText(FText::FromString(ServerName));
+		Row->Setup(this, i);
+		++i;
+
+		ServerList->AddChild(Row);
+	}
+}
+
+void UMainMenu::SelectIndex(uint32 Index)
+{
+	SelectedIndex = Index;
+}
+
 void UMainMenu::JoinServer()
 {
+	if (SelectedIndex.IsSet())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Selected index %d."), SelectedIndex.GetValue());
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Selected index not set."));
+	}
 	if (MenuInterface != nullptr)
 	{
 		//if (!ensure(IPAddressField != nullptr)) return;
 		//const FString& Address = IPAddressField->GetText().ToString();
 		MenuInterface->Join("");
-
 	}
 }
 
@@ -78,8 +99,7 @@ void UMainMenu::OpenJoinMenu()
 	if (!ensure(MenuSwitcher != nullptr)) return;
 	if (!ensure(JoinMenu != nullptr)) return;
 	MenuSwitcher->SetActiveWidget(JoinMenu);
-	if (MenuInterface != nullptr)
-	{
+	if (MenuInterface != nullptr) {
 		MenuInterface->RefreshServerList();
 	}
 }

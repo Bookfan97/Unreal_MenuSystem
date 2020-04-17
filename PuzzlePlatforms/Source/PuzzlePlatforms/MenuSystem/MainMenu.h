@@ -18,6 +18,8 @@ public:
 
 	void SetServerList(TArray<FString> ServerNames);
 
+	void SelectIndex(uint32 Index);
+
 protected:
 	virtual bool Initialize();
 
@@ -57,6 +59,7 @@ private:
 	UFUNCTION()
 		void JoinServer();
 
+
 	UFUNCTION()
 		void OpenJoinMenu();
 
@@ -65,4 +68,6 @@ private:
 
 	UFUNCTION()
 		void QuitPressed();
+
+	TOptional<uint32> SelectedIndex;
 };

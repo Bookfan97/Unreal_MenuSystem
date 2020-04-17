@@ -17,10 +17,40 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UServerRow();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_PuzzlePlatforms();
+	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_UServerRow_OnClicked();
+	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_UMainMenu_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 // End Cross Module References
 	void UServerRow::StaticRegisterNativesUServerRow()
 	{
+		UClass* Class = UServerRow::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnClicked", &UServerRow::execOnClicked },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UServerRow_OnClicked_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UServerRow_OnClicked_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MenuSystem/ServerRow.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UServerRow_OnClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UServerRow, nullptr, "OnClicked", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UServerRow_OnClicked_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UServerRow_OnClicked_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UServerRow_OnClicked()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UServerRow_OnClicked_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UServerRow_NoRegister()
 	{
@@ -29,9 +59,18 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 	struct Z_Construct_UClass_UServerRow_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Parent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Parent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RowButton_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RowButton;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ServerName_MetaData[];
 #endif
@@ -44,6 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 		(UObject* (*)())Z_Construct_UClass_UUserWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_PuzzlePlatforms,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UServerRow_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UServerRow_OnClicked, "OnClicked" }, // 760729854
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
@@ -51,6 +93,21 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 		{ "ModuleRelativePath", "MenuSystem/ServerRow.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::NewProp_Parent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MenuSystem/ServerRow.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UServerRow_Statics::NewProp_Parent = { "Parent", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UServerRow, Parent), Z_Construct_UClass_UMainMenu_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UServerRow_Statics::NewProp_Parent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::NewProp_Parent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MenuSystem/ServerRow.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton = { "RowButton", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UServerRow, RowButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName_MetaData[] = {
 		{ "BindWidget", "" },
@@ -60,6 +117,8 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName = { "ServerName", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UServerRow, ServerName), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UServerRow_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_Parent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_RowButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UServerRow_Statics::NewProp_ServerName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UServerRow_Statics::StaticCppClassTypeInfo = {
@@ -70,11 +129,11 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UServerRow_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UServerRow_Statics::PropPointers),
 		0,
 		0x00B010A0u,
@@ -89,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeServerRow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UServerRow, 1053147919);
+	IMPLEMENT_CLASS(UServerRow, 4174759345);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<UServerRow>()
 	{
 		return UServerRow::StaticClass();
