@@ -616,3 +616,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.17-15.44.56:107][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.04.17-15.44.56:629][ 11]LogAssetRegistry: Asset discovery search completed in 12.8941 seconds
 [2020.04.17-15.44.56:631][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.04.17-15.59.23:748][589]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0047.dll
+[2020.04.17-15.59.24:433][592]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-15.59.24:438][592]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-15.59.24:475][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.04.17-15.59.24:506][592]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-15.59.24:508][592]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.04.17-15.59.24:566][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.04.17-15.59.24:575][592]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-15.59.24:579][592]Display: HotReload took  0.1s.
+[2020.04.17-16.04.57:114][587]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0048.dll
+[2020.04.17-16.04.57:800][590]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-16.04.57:837][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.04.17-16.04.57:862][590]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-16.04.57:864][590]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.04.17-16.04.57:914][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.04.17-16.04.57:924][590]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-16.04.57:927][590]Display: HotReload took  0.1s.
+[2020.04.17-16.06.16:468][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.17-16.06.16:501][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.04.17-16.06.16:604][926]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/MainMenu6821B19D40BE8C0118805DA3A2607B41.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu.umap'
+[2020.04.17-16.06.16:637][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/MainMenu_BuiltData" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu_BuiltData.uasset" SILENT=true
+[2020.04.17-16.06.16:649][926]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/MainMenu_BuiltData7BA8D5D344347E82A91F159C1971F9D4.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/MainMenu_BuiltData.uasset'
+[2020.04.17-16.06.16:672][926]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.17-16.06.16:672][926]LogContentValidation: Display: Validating World /Game/MenuSystem/MainMenu.MainMenu
+[2020.04.17-16.06.16:672][926]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MenuSystem/MainMenu_BuiltData.MainMenu_BuiltData
