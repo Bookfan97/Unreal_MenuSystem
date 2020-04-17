@@ -8,6 +8,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemNames.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemPackage.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineDelegateMacros.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Online\OnlineSubsystem\Source\Public\Interfaces/OnlineSessionInterface.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Source\PuzzlePlatforms\MenuSystem/MenuInterface.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\MenuInterface.generated.h
 E:\Github\Unreal_PuzzlePlatformer_Multiplayer\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PuzzlePlatformsGameInstance.generated.h
