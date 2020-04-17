@@ -877,3 +877,125 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.17-17.04.25:784][558]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3030 classes and 727 folders.
 [2020.04.17-17.04.25:787][558]Display: HotReload took  0.5s.
 [2020.04.17-17.09.01:034][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.04.17-17.16.44:194][849]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.17.01:123][822]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.07:600][240]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.17.07:611][240]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.08:980][404]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.17.08:987][404]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.10:617][598]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.17.10:631][598]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.12:017][764]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.17.12:024][764]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.15:419][153]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.17.51:391][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
+[2020.04.17-17.17.51:413][738]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow37E14BA04AF1C7F40D2024B81D59D07F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
+[2020.04.17-17.17.51:432][738]AssetCheck: New page: Asset Save: WBP_ServerRow
+[2020.04.17-17.17.51:432][738]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
+[2020.04.17-17.18.11:850][175]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.17-17.18.11:910][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.04.17-17.18.11:945][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-17.18.11:970][175]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuD62C2DF54BF696E196DACEA541F0A768.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-17.18.11:986][175]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-17.18.11:986][175]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.18.12:003][175]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.18.55:484][ 38]BlueprintLog: New page: Compile WBP_ServerRow
+[2020.04.17-17.18.55:676][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.04.17-17.18.55:719][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
+[2020.04.17-17.18.55:733][ 38]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow6459E93944005E9F8797E4908B340710.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
+[2020.04.17-17.18.55:750][ 38]AssetCheck: New page: Asset Save: WBP_ServerRow
+[2020.04.17-17.18.55:750][ 38]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
+[2020.04.17-17.20.05:262][601]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.04.17-17.20.05:263][601]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.037
+[2020.04.17-17.20.05:263][601]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_ServerRow] ([1] browsable assets)...
+[2020.04.17-17.20.05:263][601]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_ServerRow]
+[2020.04.17-17.20.05:278][601]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRow_Auto38210D8CF4F03A133D2FBEEABF3036C69.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_ServerRow_Auto3.uasset'
+[2020.04.17-17.20.05:278][601]LogFileHelpers: Auto-saving content packages took 0.015
+[2020.04.17-17.20.19:753][472]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.21.59:674][453]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.21.59:682][453]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.21.59:784][458]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.22.13:699][987]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.17-17.22.13:741][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.04.17-17.22.13:785][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-17.22.13:809][987]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuD5E795E84B4641308A61F5B5FCA339AA.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-17.22.13:827][987]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-17.22.13:827][987]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.22.13:841][987]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.22.24:180][211]BlueprintLog: New page: Compile WBP_ServerRow
+[2020.04.17-17.22.24:378][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.04.17-17.22.24:401][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
+[2020.04.17-17.22.24:416][211]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowE8907F38402AFADDF5B627957C7AAB4E.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
+[2020.04.17-17.22.24:438][211]AssetCheck: New page: Asset Save: WBP_ServerRow
+[2020.04.17-17.22.24:438][211]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
+[2020.04.17-17.22.27:385][548]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.22.28:783][711]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.22.28:783][711]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.22.45:390][517]BlueprintLog: New page: Compile WBP_ServerRow
+[2020.04.17-17.22.45:590][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.04.17-17.22.50:281][ 57]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.23.09:757][369]BlueprintLog: New page: Compile WBP_ServerRow
+[2020.04.17-17.23.09:958][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.04.17-17.23.09:991][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_ServerRow" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset" SILENT=true
+[2020.04.17-17.23.10:011][369]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_ServerRowEF923EBD4714064919B76994A2F35342.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_ServerRow.uasset'
+[2020.04.17-17.23.10:032][369]AssetCheck: New page: Asset Save: WBP_ServerRow
+[2020.04.17-17.23.10:032][369]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_ServerRow.WBP_ServerRow
+[2020.04.17-17.23.12:995][716]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.23.22:630][849]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.17-17.23.22:672][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.04.17-17.23.22:714][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-17.23.22:739][849]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu73F7B8B14F6D7656EF9D10B95B40BFD2.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-17.23.22:759][849]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-17.23.22:759][849]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.23.22:779][849]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.23.24:691][ 75]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.17-17.23.24:712][ 75]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-17.23.24:712][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.17-17.23.24:712][ 75]PIE: New page: PIE session: MainMenu (Apr 17, 2020, 9:23:24 AM)
+[2020.04.17-17.23.24:712][ 75]LogPlayLevel: Creating play world package: /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.17-17.23.24:713][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000841s)
+[2020.04.17-17.23.24:714][ 75]LogAIModule: Creating AISystem for world MainMenu
+[2020.04.17-17.23.24:714][ 75]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2020.04.17-17.23.24:714][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystem/MainMenu.MainMenu to /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu (0.001645s)
+[2020.04.17-17.23.24:748][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.04.17-17.23.24:748][ 75]LogTemp: Warning: Found subsystem NULL
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-17.23.24:748][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-17.23.24:748][ 75]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-17.23.24:748][ 75]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.17-17.23.24:799][ 75]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: Channel Order:
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 4: BackLeft
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 5: BackRight
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 6: SideLeft
+[2020.04.17-17.23.24:800][ 75]LogAudioMixer: Display: 7: SideRight
+[2020.04.17-17.23.24:832][ 75]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.17-17.23.24:833][ 75]LogInit: FAudioDevice initialized.
+[2020.04.17-17.23.24:873][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-17.23.24:873][ 75]LogLoad: Game class is 'PuzzlePlatformsGameMode'
+[2020.04.17-17.23.24:874][ 75]LogWorld: Bringing World /Game/MenuSystem/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.04.17-13.23.24
+[2020.04.17-17.23.24:874][ 75]LogWorld: Bringing up level for play took: 0.000404
+[2020.04.17-17.23.24:874][ 75]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.04.17-17.23.24:876][ 75]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.04.17-17.23.24:878][ 75]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-17.23.24:882][ 75]PIE: Play in editor start time for /Game/MenuSystem/UEDPIE_0_MainMenu 0.692
+[2020.04.17-17.23.24:882][ 75]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-17.23.25:934][199]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-17.23.25:934][199]LogTemp: Warning: Starting Find Session
+[2020.04.17-17.23.30:938][796]LogTemp: Warning: Finished Find Session
+[2020.04.17-17.23.34:850][265]LogTemp: Warning: Selected index not set.
