@@ -10,11 +10,13 @@ USTRUCT()
 struct FServerData
 {
 	GENERATED_BODY()
+
 		FString Name;
 	uint16 CurrentPlayers;
 	uint16 MaxPlayers;
 	FString HostUsername;
 };
+
 /**
  *
  */
@@ -60,6 +62,18 @@ private:
 		class UWidget* JoinMenu;
 
 	UPROPERTY(meta = (BindWidget))
+		class UWidget* HostMenu;
+
+	UPROPERTY(meta = (BindWidget))
+		class UEditableTextBox* ServerHostName;
+
+	UPROPERTY(meta = (BindWidget))
+		class UButton* CancelHostMenuButton;
+
+	UPROPERTY(meta = (BindWidget))
+		class UButton* ConfirmHostMenuButton;
+
+	UPROPERTY(meta = (BindWidget))
 		class UPanelWidget* ServerList;
 
 	UFUNCTION()
@@ -68,6 +82,9 @@ private:
 	UFUNCTION()
 		void JoinServer();
 
+
+	UFUNCTION()
+		void OpenHostMenu();
 
 	UFUNCTION()
 		void OpenJoinMenu();

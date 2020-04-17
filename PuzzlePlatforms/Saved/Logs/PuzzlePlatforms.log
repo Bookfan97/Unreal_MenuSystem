@@ -999,3 +999,229 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.17-17.23.25:934][199]LogTemp: Warning: Starting Find Session
 [2020.04.17-17.23.30:938][796]LogTemp: Warning: Finished Find Session
 [2020.04.17-17.23.34:850][265]LogTemp: Warning: Selected index not set.
+[2020.04.17-17.24.45:143][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-17.24.45:160][880]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu2CB151594FC1438E2799DFAE938A6B1F.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-17.24.45:171][880]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-17.24.45:171][880]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.24.46:649][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-17.24.46:666][ 57]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.17-17.24.46:686][ 57]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.17-17.24.46:687][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-17.24.46:687][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-17.24.46:687][ 57]LogWorld: BeginTearingDown for /Game/MenuSystem/UEDPIE_0_MainMenu
+[2020.04.17-17.24.46:698][ 57]LogSlate: Window 'PuzzlePlatforms Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.17-17.24.46:700][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-17.24.46:701][ 57]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-17.24.46:701][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-17.24.46:710][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.17-17.24.46:710][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystem/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystem/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.04.17-17.24.46:715][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-17.24.46:750][ 57]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-17.24.46:764][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.04.17-17.24.46:773][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.17-17.24.47:062][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-17.24.47:079][ 90]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu98F2E7394E149ED47F9D7BBCFE58A7CD.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-17.24.47:095][ 90]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-17.24.47:095][ 90]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-17.53.06:190][783]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.55.20:633][476]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.55.33:828][759]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.55.33:835][759]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.55.50:482][747]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.55.52:465][985]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.55.52:472][985]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.06:383][647]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.06:392][647]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.10:018][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.10:029][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.11:390][233]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.11:390][233]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.28:987][ 50]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.28:994][ 50]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.32:742][496]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.32:762][496]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.38:892][213]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.38:892][213]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.44:898][928]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.44:898][928]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.56.59:608][552]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-17.56.59:615][552]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.57.15:622][462]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.57.48:529][957]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.58.00:958][663]LogEditorTransaction: Undo Add Widget
+[2020.04.17-17.58.01:049][663]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-17.58.01:867][728]LogEditorTransaction: Undo Add Widget
+[2020.04.17-17.58.37:592][137]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.04.17-17.58.37:593][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.037
+[2020.04.17-17.58.37:593][137]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_MainMenu] ([1] browsable assets)...
+[2020.04.17-17.58.37:593][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_MainMenu]
+[2020.04.17-17.58.37:619][137]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu_Auto454D792BE4D9B757F91D759B0805369EE.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto4.uasset'
+[2020.04.17-17.58.37:966][137]LogFileHelpers: Auto-saving content packages took 0.372
+[2020.04.17-18.06.14:164][925]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.15:271][ 56]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.06.15:271][ 56]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.16:408][191]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.06.16:408][191]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.20:615][690]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.06.20:634][690]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.30:103][820]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.39:143][ 43]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.06.39:161][ 43]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.06.48:425][140]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.31:568][313]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.07.31:568][313]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.40:343][347]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.42:508][604]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.07.42:516][604]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.43:179][683]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.07.43:195][683]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.44:401][818]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.46:290][ 41]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.07.46:297][ 41]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.07.52:060][724]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.07.52:077][724]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.08.37:784][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.04.17-18.08.37:785][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystem/MainMenu' took 0.040
+[2020.04.17-18.08.37:785][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystem/WBP_MainMenu] ([1] browsable assets)...
+[2020.04.17-18.08.37:785][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystem/WBP_MainMenu]
+[2020.04.17-18.08.37:809][142]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu_Auto5417A47FB423945D9A3BEEB8C3AEF588B.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/Autosaves/Game/MenuSystem/WBP_MainMenu_Auto5.uasset'
+[2020.04.17-18.08.37:810][142]LogFileHelpers: Auto-saving content packages took 0.024
+[2020.04.17-18.19.49:618][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-18.19.49:989][103]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenuED54EC064206537E4660B3B95C0CD418.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-18.19.50:015][103]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-18.19.50:015][103]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-18.19.54:496][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.17-18.19.57:491][609]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.17-18.19.58:322][609]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-18.19.58:322][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-18.19.58:337][609]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-18.19.58:337][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-18.19.58:372][609]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-18.20.00:023][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.04.17-18.20.00:057][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.04.17-18.20.00:088][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.04.17-18.21.37:823][ 93]LogAssetTools: Warning: Failed to import 'C:\Users\shelt\Downloads\3_Steam_Multiplayer-2ad048d8305a571c38be43a58f72a6b35e8d1908\3_Steam_Multiplayer-2ad048d8305a571c38be43a58f72a6b35e8d1908\UnrealProject\PuzzlePlatforms\Content\MenuSystem\WBP_MainMenu.uasset'. Unknown extension 'uasset'.
+[2020.04.17-18.22.32:421][681]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-18.22.58:344][436]BlueprintLog: New page: Compile WBP_MainMenu
+[2020.04.17-18.22.58:389][436]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.04.17-18.22.58:428][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-18.22.58:448][436]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu4C1DA91E41B150014EB6778C401D8D46.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-18.22.58:467][436]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-18.22.58:467][436]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu
+[2020.04.17-18.25.27:137][  8]LogHotReload: New module detected: UE4Editor-PuzzlePlatforms-0057.dll
+[2020.04.17-18.25.28:167][ 12]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-18.25.28:216][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.04.17-18.25.28:237][ 12]LogClass: Could not find existing class MainMenu in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.17-18.25.28:237][ 12]LogClass: Function HostServer is new.
+[2020.04.17-18.25.28:237][ 12]LogClass: Function JoinServer is new.
+[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenHostMenu is new.
+[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenJoinMenu is new.
+[2020.04.17-18.25.28:237][ 12]LogClass: Function OpenMainMenu is new.
+[2020.04.17-18.25.28:237][ 12]LogClass: Function QuitPressed is new.
+[2020.04.17-18.25.28:244][ 12]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatforms for HotReload, assuming new class
+[2020.04.17-18.25.28:244][ 12]LogClass: Function Host is new.
+[2020.04.17-18.25.28:244][ 12]LogClass: Function InGameLoadMenu is new.
+[2020.04.17-18.25.28:244][ 12]LogClass: Function Join is new.
+[2020.04.17-18.25.28:244][ 12]LogClass: Function LoadMenuWidget is new.
+[2020.04.17-18.25.28:248][ 12]LogClass: ServerData HotReload.
+[2020.04.17-18.25.28:252][ 12]LogHotReload: Re-instancing MainMenu after hot-reload.
+[2020.04.17-18.25.28:601][ 12]LogHotReload: Re-instancing PuzzlePlatformsGameInstance after hot-reload.
+[2020.04.17-18.25.28:756][ 12]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatforms' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2020.04.17-18.25.28:760][ 12]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.04.17-18.25.28:842][ 12]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.17-18.25.29:366][ 12]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.523 s
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/UMG/Private/Slate/SObjectWidget.cpp] [Line: 43]
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: SObjectWidget for 'WBP_ServerRow_C /Engine/Transient.World_5:WBP_MainMenu_C_3.WidgetTree_0.WBP_ServerRow' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: Stack: 
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8cd5d0e UE4Editor-UMG.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8b3f7a6 UE4Editor-UMG.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94c3edc UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6bc4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca6ad356 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca87e681 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca86c218 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffca8724a3 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc953f55a UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94bf99f UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc94b6ef4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc8c04e3b UE4Editor-UMG.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb38b4b5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb36807e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb25c308 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffcb25b53c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb4c2dc UE4Editor-HotReload.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb4b7db UE4Editor-HotReload.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fff8cb5c821 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007fffc72290b5 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688bfad74 UE4Editor.exe!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c0c3ec UE4Editor.exe!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c0c4ca UE4Editor.exe!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c1ceae UE4Editor.exe!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff688c1fcbe UE4Editor.exe!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff82f366fd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: [Callstack] 0x00007ff82f6dcec1 ntdll.dll!UnknownFunction []
+[2020.04.17-18.25.29:366][ 12]LogOutputDevice: Error: 
+[2020.04.17-18.25.29:375][ 12]LogStats:                SubmitErrorReport -  0.000 s
+[2020.04.17-18.25.38:272][ 12]LogStats:                    SendNewReport -  8.898 s
+[2020.04.17-18.25.38:273][ 12]LogStats:             FDebug::EnsureFailed -  9.430 s
+[2020.04.17-18.25.38:276][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.04.17-18.25.38:290][ 12]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3030 classes and 727 folders.
+[2020.04.17-18.25.38:294][ 12]Display: HotReload took 10.1s.
+[2020.04.17-18.25.38:557][ 12]LogTemp: Resetting audio stream to device id 
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: Channel Order:
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 4: BackLeft
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 5: BackRight
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 6: SideLeft
+[2020.04.17-18.25.38:638][ 12]LogAudioMixer: Display: 7: SideRight
+[2020.04.17-18.30.23:596][ 11]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.17-18.30.32:720][ 74]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.17-18.30.32:730][ 74]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-18.30.34:248][254]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.30.34:248][254]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.04.17-18.30.43:932][388]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.30.43:939][388]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.30.45:293][550]LogSlate: Window 'Color Picker' being destroyed
+[2020.04.17-18.30.45:309][550]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.30.45:309][550]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.30.51:353][255]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.04.17-18.30.51:353][255]LogSlate: WidgetSwitcher ('None') active index changed to 2
+[2020.04.17-18.30.52:240][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystem/WBP_MainMenu" FILE="E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset" SILENT=true
+[2020.04.17-18.30.52:269][358]LogSavePackage: Moving 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Saved/WBP_MainMenu5BA0C0C1472DB1C98F11A58C48974FA1.tmp' to 'E:/Github/Unreal_PuzzlePlatformer_Multiplayer/PuzzlePlatforms/Content/MenuSystem/WBP_MainMenu.uasset'
+[2020.04.17-18.30.52:293][358]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2020.04.17-18.30.52:293][358]LogContentValidation: Display: Validating WidgetBlueprint /Game/MenuSystem/WBP_MainMenu.WBP_MainMenu

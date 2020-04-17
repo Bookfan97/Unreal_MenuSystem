@@ -27,9 +27,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execHost) \
 	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_ServerName); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Host(); \
+		P_THIS->Host(Z_Param_ServerName); \
 		P_NATIVE_END; \
 	} \
  \
@@ -63,9 +64,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execHost) \
 	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_ServerName); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Host(); \
+		P_THIS->Host(Z_Param_ServerName); \
 		P_NATIVE_END; \
 	} \
  \
